@@ -297,16 +297,16 @@
 
 \begin{frame}{\bf model architecture}
 
-  \centering{\includegraphics[scale=0.15]{../diagrams/architectures/dqnbasic.png}}
+  \centering{\includegraphics[scale=0.15]{../diagrams/models/dqncnn.png}}
 
   \begin{itemize}
     \item input 96x96 grayscale, 4 stacked frames
-    \item 3x3 convs + pooling
+    \item 8x8 and 3x3 convs, with strides
     \item two fully connected layers
     \item small learning rate $\eta = 0.0001$, batch size = 32
     \item $\gamma = 0.99$
     \item exploration $\epsilon$-greedy, 1M samples linear decay from 1 to 0.05
-    \item total training 10M samples
+    \item total training 8..16M samples
   \end{itemize}
  
 \end{frame}
@@ -318,7 +318,7 @@
 
 \begin{frame}{\bf dueling DQN, model architecture}
 
-  \centering{\includegraphics[scale=0.15]{../diagrams/architectures/duelingdqn.png}}
+  \centering{\includegraphics[scale=0.15]{../diagrams/models/duelingdqncnn.png}}
 
   \begin{align*}
     Q(s, a) &= V(s) + A(s, a) \\
@@ -332,59 +332,6 @@
 
 
 
-\begin{frame}{\bf noisy layers for exploration}
-
-
-\centering{\bf {action space noise}}
-
-\centering{\includegraphics[scale=0.15]{../diagrams/architectures/noisylayerbasic.png}}
-
-\centering{\bf {parameter space noise}}
-
-\centering{\includegraphics[scale=0.15]{../diagrams/architectures/noisylayerparameter.png}}
-
-\end{frame}
-
-
-
-\begin{frame}{\bf model architecture}
-
-   \begin{columns}
-
-    \begin{column}{0.5\textwidth}
-      \centering{\includegraphics[scale=0.3]{../images/model_dqn_code.png}}
-    \end{column}
-
-    \begin{column}{0.5\textwidth}
-      \centering{\includegraphics[angle=270, scale=0.1]{../diagrams/architectures/duelingdqn.png}}
-    \end{column}
-
-  \end{columns}
- 
-\end{frame}
-
-
-
-
-\begin{frame}{\bf results on MsPacman}
-
-\centering{\includegraphics[scale=0.5]{../../experiments/5_pacman/results/score_per_episode.png}}
-
-\end{frame}
-
-
-\begin{frame}{\bf wise Wizard's DQN spell chart}
-  \begin{itemize}
-    \item use {\bf \color{red} input} with nice size $k2^j$, 64, 96, 128 ...
-    \item {\bf \color{red} conv layers} use 3x3 convs, poolings or strides > 1
-    \item for {\bf \color{red} weight init} use Xavier
-    \item {\bf \color{red} dont use} batchnorm (use SkipInit - not tested yet),
-    \item {\bf \color{red} dont use} weight regularisation
-    \item use {\bf \color{red} soft} target network update, $\tau = 0.001$
-    \item slow learning rate $\eta = 0.0001$ works better
-    \item for exploration use $\epsilon$-greedy decay from 1.0 to 0.05 in 1M steps, or use noisy layers
-  \end{itemize}
-\end{frame}
 
 
 
@@ -432,8 +379,7 @@
 
 \begin{frame}{\bf model architecture}
 
-  \centering{\includegraphics[scale=0.12]{../diagrams/architectures/ddpgbasic.png}}
-  \centering{\includegraphics[scale=0.12]{../diagrams/architectures/ddpgexploration.png}}
+  \centering{\includegraphics[scale=0.12]{../diagrams/models/ddpgfc.png}}
 
 \end{frame}
 
@@ -498,10 +444,6 @@
 
 \begin{frame}{\bf books to read}
 
-    \centering{\includegraphics[scale=0.1]{../images/books.jpg}}
-
-    \vspace*{-60ex} 
-    {
         \begin{itemize}
           \item Maxim Lapan, 2020, Deep Reinforcement Learning Hands-On second edition
           \item Maxim Lapan, 2018, Deep Reinforcement Learning Hands-On
@@ -510,7 +452,6 @@
           \item Rajalingappaa Shanmugamani, 2019, Python Reinforcement Learning
           \item Micheal Lanham, 2019, Hands-On Deep Learning for Games
         \end{itemize}
-    }
 
 \end{frame}
 
