@@ -177,9 +177,27 @@
 
 
 
+
 \begin{frame}{\bf deep Q learning}
 
-  \centering{\includegraphics[scale=0.12]{../diagrams/basic/qlearning.png}}
+  \begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.12]{../diagrams/basic/qlearning.png}}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item play games with any policy
+        \item store to buffer : \\ {\bf state, action, reward, done}
+        \item sample random batch
+        \item obtain q-values and next q-values
+        \item use q-learning to update q-values
+        \item train model
+      \end{itemize}
+    \end{column}
+
+  \end{columns}
 
   \begin{align*}
     Q(s, a; \theta) = \underset{\textcolor{cyan}{reward}}{R} + \underset{\textcolor{OrangeRed}{discounted\ future\ reward}}{\gamma \max \limits_{a'} Q(s', a'; \theta^-)}
@@ -188,20 +206,31 @@
   \begin{align*}
     \mathcal{L(\theta)} = \left( R + \gamma \max \limits_{a'} Q(s', a'; \theta^-) - Q(s, a; \theta)  \right)^2
   \end{align*}
+
 \end{frame}
 
-\begin{frame}{\bf deep Q learning}
 
-  \centering{\includegraphics[scale=0.15]{../diagrams/basic/deepqlearningdetail.png}}
+\begin{frame}{\bf deep Q learning}  
+  \begin{itemize}
+    \item play games with any policy
+    \item store to buffer : {\bf state, action, reward, done}
+  \end{itemize}
 
-  \begin{align*}
-    Q(s, a; \theta) = \underset{\textcolor{cyan}{reward}}{R} + \underset{\textcolor{OrangeRed}{discounted\ future\ reward}}{\gamma \max \limits_{a'} Q(s', a'; \theta^-)}
-  \end{align*}
-
-  \begin{align*}
-    \mathcal{L(\theta)} = \left( R + \gamma \max \limits_{a'} Q(s', a'; \theta^-) - Q(s, a; \theta)  \right)^2
-  \end{align*}
+  \centering{\includegraphics[scale=0.18]{../diagrams/basic/dqn1.png}}
 \end{frame}
+
+
+\begin{frame}{\bf deep Q learning}  
+  \begin{itemize}
+    \item sample random batch {\bf state, state next, action, reward, done}
+    \item obtain q-values and next q-values
+    \item use q-learning to update q-values
+    \item train model
+  \end{itemize}
+
+  \centering{\includegraphics[scale=0.18]{../diagrams/basic/dqn2.png}}
+\end{frame}
+
 
 
 
