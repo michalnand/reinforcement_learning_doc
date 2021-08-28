@@ -162,6 +162,39 @@
 
 
 
+
+\begin{frame}{\bf random network distillation}
+
+\centering
+\includegraphics[scale=0.15]{../diagrams/rnd/rnd.png}
+
+\end{frame}
+
+\begin{frame}{\bf random network distillation}
+
+  \begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      \includegraphics[scale=0.1]{../diagrams/rnd/rnd.png}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item neural network works as {\bf novelty detector}
+        \item model learns to imitate random (target) model
+        \item {\bf less visited states produce bigger motivation signal}
+        \item orthogonal weights initialisation ($g=2^{0.5}$) for strong signal
+        \item lot of fully connected layers {\bf to avoid generalisation}
+      \end{itemize}
+    \end{column}
+
+
+  \end{columns}
+
+\end{frame}
+
+
+
 \begin{frame}{\bf Q\&A}
 
 \centering{\includegraphics[scale=0.1]{../images/me.jpg}}
