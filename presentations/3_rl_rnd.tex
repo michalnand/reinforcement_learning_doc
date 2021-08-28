@@ -220,8 +220,25 @@
 
 \begin{frame}{\bf results}
 
-\centering
-\includegraphics[scale=0.12]{../results/montezuma_ppo_rnd_a.png}
+
+\begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      \includegraphics[scale=0.25]{../results/montezuma_ppo_rnd_a.png}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item 1M  steps - {\bf 20\% of original paper}
+        \item 128 parallel envs (128M steps)
+        \item {\bf score 6400}
+        \item {\bf 9 rooms explored}
+      \end{itemize}
+    \end{column}
+
+
+  \end{columns}
+
 
 \end{frame}
 
