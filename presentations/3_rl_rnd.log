@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.3)  29 AUG 2021 11:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.3)  29 AUG 2021 11:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1623,18 +1623,18 @@ Overfull \hbox (10.81284pt too wide) in paragraph at lines 286--286
 [12
 
  <../images/hide_and_seek.jpg>]
-<../images/me.jpg, id=193, 2162.0775pt x 2471.2325pt>
-File: ../images/me.jpg Graphic file (type jpg)
-<use ../images/me.jpg>
-Package pdftex.def Info: ../images/me.jpg  used on input line 298.
-(pdftex.def)             Requested size: 216.22041pt x 247.13773pt.
+<../images/me2.jpg, id=193, 2168.1pt x 2890.8pt>
+File: ../images/me2.jpg Graphic file (type jpg)
+<use ../images/me2.jpg>
+Package pdftex.def Info: ../images/me2.jpg  used on input line 298.
+(pdftex.def)             Requested size: 216.8227pt x 289.09694pt.
 
-Overfull \vbox (54.39514pt too high) detected at line 298
+Overfull \vbox (85.1877pt too high) detected at line 298
  []
 
 [13
 
- <../images/me.jpg>]
+ <../images/me2.jpg>]
 \tf@nav=\write6
 \openout6 = `3_rl_rnd.nav'.
 
@@ -1661,7 +1661,7 @@ Package rerunfilecheck Info: File `3_rl_rnd.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  35295 strings out of 492616
- 667454 string characters out of 6129482
+ 667459 string characters out of 6129482
  885660 words of memory out of 5000000
  38550 multiletter control sequences out of 15000+600000
  600521 words of font info for 71 fonts, out of 8000000 for 9000
@@ -1679,10 +1679,10 @@ e/2019/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2019/te
 xmf-dist/fonts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2019/texmf-dist/f
 onts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/
 public/lm/lmtt10.pfb>
-Output written on 3_rl_rnd.pdf (13 pages, 2688270 bytes).
+Output written on 3_rl_rnd.pdf (13 pages, 2448279 bytes).
 PDF statistics:
- 248 PDF objects out of 1000 (max. 8388607)
- 169 compressed objects within 2 object streams
+ 247 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
  27 named destinations out of 1000 (max. 500000)
  273 words of extra memory for PDF output out of 10000 (max. 10000000)
 
