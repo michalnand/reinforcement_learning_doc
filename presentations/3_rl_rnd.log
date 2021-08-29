@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.3)  29 AUG 2021 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.3)  29 AUG 2021 11:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1520,80 +1520,74 @@ Package pdftex.def Info: ../images/montezuma.png  used on input line 142.
  [3
 
  <../images/montezuma.png>]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 161.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 161.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 161.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 161.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 172.
 
-Overfull \hbox (38.73898pt too wide) in paragraph at lines 161--161
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 172.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 172.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 172.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 172.
+
+Overfull \hbox (8.54903pt too wide) in paragraph at lines 172--172
  [] 
  []
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 161.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 161.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 161.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 161.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 161.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 161.
 [4
 
 ]
-<../diagrams/rnd/rnd.png, id=70, 1792.6975pt x 1198.4775pt>
+<../diagrams/rnd/rnd.png, id=74, 1792.6975pt x 1198.4775pt>
 File: ../diagrams/rnd/rnd.png Graphic file (type png)
 <use ../diagrams/rnd/rnd.png>
-Package pdftex.def Info: ../diagrams/rnd/rnd.png  used on input line 171.
+Package pdftex.def Info: ../diagrams/rnd/rnd.png  used on input line 182.
 (pdftex.def)             Requested size: 268.89302pt x 179.76387pt.
  [5
 
  <../diagrams/rnd/rnd.png>]
 File: ../diagrams/rnd/rnd.png Graphic file (type png)
 <use ../diagrams/rnd/rnd.png>
-Package pdftex.def Info: ../diagrams/rnd/rnd.png  used on input line 194.
+Package pdftex.def Info: ../diagrams/rnd/rnd.png  used on input line 205.
 (pdftex.def)             Requested size: 179.28024pt x 119.85477pt.
 
-Overfull \hbox (25.63531pt too wide) in paragraph at lines 194--194
+Overfull \hbox (25.63531pt too wide) in paragraph at lines 205--205
 [][]  
  []
 
 [6
 
 ]
-<../diagrams/rnd/modelrnd.png, id=103, 2300.595pt x 1132.23pt>
+<../diagrams/rnd/modelrnd.png, id=107, 2300.595pt x 1132.23pt>
 File: ../diagrams/rnd/modelrnd.png Graphic file (type png)
 <use ../diagrams/rnd/modelrnd.png>
-Package pdftex.def Info: ../diagrams/rnd/modelrnd.png  used on input line 202.
+Package pdftex.def Info: ../diagrams/rnd/modelrnd.png  used on input line 213.
 (pdftex.def)             Requested size: 276.0595pt x 135.86172pt.
  [7
 
  <../diagrams/rnd/modelrnd.png>]
-<../diagrams/rnd/modelppoa.png, id=115, 2768.3425pt x 1292.83pt>
+<../diagrams/rnd/modelppoa.png, id=119, 2768.3425pt x 1292.83pt>
 File: ../diagrams/rnd/modelppoa.png Graphic file (type png)
 <use ../diagrams/rnd/modelppoa.png>
-Package pdftex.def Info: ../diagrams/rnd/modelppoa.png  used on input line 211.
+Package pdftex.def Info: ../diagrams/rnd/modelppoa.png  used on input line 222.
 
 (pdftex.def)             Requested size: 332.18677pt x 155.1329pt.
 
-Overfull \hbox (24.8969pt too wide) in paragraph at lines 211--211
+Overfull \hbox (24.8969pt too wide) in paragraph at lines 222--222
  [][] 
  []
 
 [8
 
  <../diagrams/rnd/modelppoa.png>]
-<../diagrams/rnd/modelppob.png, id=126, 2766.335pt x 1298.8525pt>
+<../diagrams/rnd/modelppob.png, id=130, 2766.335pt x 1298.8525pt>
 File: ../diagrams/rnd/modelppob.png Graphic file (type png)
 <use ../diagrams/rnd/modelppob.png>
-Package pdftex.def Info: ../diagrams/rnd/modelppob.png  used on input line 218.
+Package pdftex.def Info: ../diagrams/rnd/modelppob.png  used on input line 229.
 
 (pdftex.def)             Requested size: 276.6497pt x 129.89285pt.
  [9
@@ -1602,44 +1596,40 @@ Package pdftex.def Info: ../diagrams/rnd/modelppob.png  used on input line 218.
 [10
 
 ]
-<../results/montezuma_ppo_rnd_a.png, id=146, 722.7pt x 722.7pt>
+<../results/montezuma_ppo_rnd_a.png, id=150, 722.7pt x 722.7pt>
 File: ../results/montezuma_ppo_rnd_a.png Graphic file (type png)
 <use ../results/montezuma_ppo_rnd_a.png>
 Package pdftex.def Info: ../results/montezuma_ppo_rnd_a.png  used on input line
- 250.
+ 261.
 (pdftex.def)             Requested size: 180.67455pt x 180.67455pt.
 
-Overfull \hbox (27.02962pt too wide) in paragraph at lines 250--250
+Overfull \hbox (27.02962pt too wide) in paragraph at lines 261--261
 [][]  
  []
 
 [11
 
  <../results/montezuma_ppo_rnd_a.png>]
-<../images/hide_and_seek.jpg, id=165, 2055.68pt x 1156.32pt>
+<../images/hide_and_seek.jpg, id=169, 2055.68pt x 1156.32pt>
 File: ../images/hide_and_seek.jpg Graphic file (type jpg)
 <use ../images/hide_and_seek.jpg>
-Package pdftex.def Info: ../images/hide_and_seek.jpg  used on input line 275.
+Package pdftex.def Info: ../images/hide_and_seek.jpg  used on input line 286.
 (pdftex.def)             Requested size: 164.45776pt x 92.50748pt.
 
-Overfull \hbox (10.81284pt too wide) in paragraph at lines 275--275
+Overfull \hbox (10.81284pt too wide) in paragraph at lines 286--286
 [][]  
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 275.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [12
+[12
 
  <../images/hide_and_seek.jpg>]
-<../images/me.jpg, id=190, 2162.0775pt x 2471.2325pt>
+<../images/me.jpg, id=193, 2162.0775pt x 2471.2325pt>
 File: ../images/me.jpg Graphic file (type jpg)
 <use ../images/me.jpg>
-Package pdftex.def Info: ../images/me.jpg  used on input line 287.
+Package pdftex.def Info: ../images/me.jpg  used on input line 298.
 (pdftex.def)             Requested size: 216.22041pt x 247.13773pt.
 
-Overfull \vbox (54.39514pt too high) detected at line 287
+Overfull \vbox (54.39514pt too high) detected at line 298
  []
 
 [13
@@ -1661,37 +1651,38 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
 (./3_rl_rnd.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
 Package rerunfilecheck Info: File `3_rl_rnd.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 35326 strings out of 492616
- 667866 string characters out of 6129482
- 883660 words of memory out of 5000000
- 38576 multiletter control sequences out of 15000+600000
- 625876 words of font info for 91 fonts, out of 8000000 for 9000
+ 35295 strings out of 492616
+ 667454 string characters out of 6129482
+ 885660 words of memory out of 5000000
+ 38550 multiletter control sequences out of 15000+600000
+ 600521 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,70p,799b,781s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
-19/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/
+ 56i,19n,70p,799b,889s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
+cal/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
+19/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2019/texmf-dist/
 fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2019/texmf-dist/fonts/type
 1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm
 /lmss10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss8.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/loca
 l/texlive/2019/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texliv
 e/2019/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2019/te
-xmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fo
-nts/type1/public/lm/lmtt10.pfb>
-Output written on 3_rl_rnd.pdf (13 pages, 2670760 bytes).
+xmf-dist/fonts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2019/texmf-dist/f
+onts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/
+public/lm/lmtt10.pfb>
+Output written on 3_rl_rnd.pdf (13 pages, 2688270 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
+ 248 PDF objects out of 1000 (max. 8388607)
+ 169 compressed objects within 2 object streams
  27 named destinations out of 1000 (max. 500000)
  273 words of extra memory for PDF output out of 10000 (max. 10000000)
 

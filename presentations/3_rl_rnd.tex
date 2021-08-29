@@ -142,21 +142,32 @@
 \end{frame}
 
 
-\begin{frame}{\bf highlighted score \footnote[0]{https://paperswithcode.com/sota/atari-games-on-atari-2600-montezumas-revenge} }
+\begin{frame}{\bf state of the art score}
 
-\begin{table}[]
-\begin{tabular}{|l|l|l|}
-\hline
-\textbf{year} & \textbf{name}                                       & \textbf{score} \\ \hline
-2015          & Deep Reinforcement Learning with Double Q-learning  & 0              \\ \hline
-2021          & MuZero                                              & 2500           \\ \hline
-2018          & Count-Based Exploration with Neural Density Models \footnote[1]{https://arxiv.org/abs/1703.01310}  & 3705           \\ \hline
-\textbf{2019} & \textbf{Exploration by Random Network Distillation} \footnote[2]{https://arxiv.org/abs/1810.12894}& \textbf{8152}  \\ \hline
-2021          & GoExplore$^*$ \footnote[3]{https://arxiv.org/abs/2004.12919}                         & 43 000         \\ \hline
-\end{tabular}
-\end{table}
 
-{\bf * : requires environment state saving/loading}
+\begin{columns}
+    \column{\dimexpr\paperwidth-10pt}
+
+      source : \url{https://paperswithcode.com/sota/atari-games-on-atari-2600-montezumas-revenge}
+
+
+      \begin{table}[]
+      \begin{tabular}{|l|l|l|}
+      \hline
+      \textbf{year} & \textbf{name}                                       & \textbf{score} \\ \hline
+      2015          & Deep Reinforcement Learning with Double Q-learning  & 0              \\ \hline
+      2017          & Curiosity-driven Exploration by Self-supervised Prediction \footnote[1]{https://arxiv.org/abs/1705.05363} & 0       \\ \hline 
+      2021          & MuZero                                              & 2500           \\ \hline
+      2018          & Count-Based Exploration with Neural Density Models \footnote[2]{https://arxiv.org/abs/1703.01310}  & 3705           \\ \hline
+      \textbf{2019} & \textbf{Exploration by Random Network Distillation} \footnote[3]{https://arxiv.org/abs/1810.12894}& \textbf{8152}  \\ \hline
+      2021          & GoExplore$^*$ \footnote[4]{https://arxiv.org/abs/2004.12919}                         & 43 000         \\ \hline
+      \end{tabular}
+      \end{table}
+
+      {\bf * requires environment state saving/loading}
+
+\end{columns}
+
 
 \end{frame}
 
