@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.3)  4 SEP 2021 19:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.3)  4 SEP 2021 19:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1542,209 +1542,218 @@ Overfull \hbox (8.54903pt too wide) in paragraph at lines 172--172
 [4
 
 ]
-<../diagrams/internal_motivation/pixelchange.png, id=74, 915.42pt x 965.6075pt>
+<../images/montezuma_progress.png, id=74, 1169.36874pt x 888.31876pt>
+File: ../images/montezuma_progress.png Graphic file (type png)
+<use ../images/montezuma_progress.png>
+Package pdftex.def Info: ../images/montezuma_progress.png  used on input line 1
+81.
+(pdftex.def)             Requested size: 233.8696pt x 177.6606pt.
+ [5
+
+ <../images/montezuma_progress.png (PNG copy)>]
+<../diagrams/internal_motivation/pixelchange.png, id=84, 915.42pt x 965.6075pt>
 
 File: ../diagrams/internal_motivation/pixelchange.png Graphic file (type png)
 <use ../diagrams/internal_motivation/pixelchange.png>
 Package pdftex.def Info: ../diagrams/internal_motivation/pixelchange.png  used 
-on input line 180.
+on input line 189.
 (pdftex.def)             Requested size: 137.30707pt x 144.83487pt.
- [5
+ [6
 
  <../diagrams/internal_motivation/pixelchange.png>]
-<../diagrams/internal_motivation/naive.png, id=85, 1336.995pt x 1055.945pt>
+<../diagrams/internal_motivation/naive.png, id=95, 1336.995pt x 1055.945pt>
 File: ../diagrams/internal_motivation/naive.png Graphic file (type png)
 <use ../diagrams/internal_motivation/naive.png>
 Package pdftex.def Info: ../diagrams/internal_motivation/naive.png  used on inp
-ut line 188.
+ut line 197.
 (pdftex.def)             Requested size: 200.54059pt x 158.38492pt.
- [6
+ [7
 
  <../diagrams/internal_motivation/naive.png>]
-<../diagrams/internal_motivation/icm.png, id=96, 1800.7275pt x 1029.8475pt>
+<../diagrams/internal_motivation/icm.png, id=107, 1800.7275pt x 1029.8475pt>
 File: ../diagrams/internal_motivation/icm.png Graphic file (type png)
 <use ../diagrams/internal_motivation/icm.png>
 Package pdftex.def Info: ../diagrams/internal_motivation/icm.png  used on input
- line 196.
+ line 205.
 (pdftex.def)             Requested size: 270.09747pt x 154.47046pt.
- [7
-
- <../diagrams/internal_motivation/icm.png>]
-<../diagrams/internal_motivation/rnd.png, id=108, 1461.46pt x 634.37pt>
-File: ../diagrams/internal_motivation/rnd.png Graphic file (type png)
-<use ../diagrams/internal_motivation/rnd.png>
-Package pdftex.def Info: ../diagrams/internal_motivation/rnd.png  used on input
- line 203.
-(pdftex.def)             Requested size: 219.20953pt x 95.15138pt.
 
 [8
 
+ <../diagrams/internal_motivation/icm.png>]
+<../diagrams/internal_motivation/rnd.png, id=118, 1461.46pt x 634.37pt>
+File: ../diagrams/internal_motivation/rnd.png Graphic file (type png)
+<use ../diagrams/internal_motivation/rnd.png>
+Package pdftex.def Info: ../diagrams/internal_motivation/rnd.png  used on input
+ line 212.
+(pdftex.def)             Requested size: 219.20953pt x 95.15138pt.
+ [9
+
  <../diagrams/internal_motivation/rnd.png>]
-<../diagrams/rnd/rnd.png, id=119, 1792.6975pt x 1198.4775pt>
+<../diagrams/rnd/rnd.png, id=129, 1792.6975pt x 1198.4775pt>
 File: ../diagrams/rnd/rnd.png Graphic file (type png)
 <use ../diagrams/rnd/rnd.png>
-Package pdftex.def Info: ../diagrams/rnd/rnd.png  used on input line 211.
+Package pdftex.def Info: ../diagrams/rnd/rnd.png  used on input line 220.
 (pdftex.def)             Requested size: 268.89302pt x 179.76387pt.
- [9
+ [10
 
  <../diagrams/rnd/rnd.png>]
 File: ../diagrams/rnd/rnd.png Graphic file (type png)
 <use ../diagrams/rnd/rnd.png>
-Package pdftex.def Info: ../diagrams/rnd/rnd.png  used on input line 235.
+Package pdftex.def Info: ../diagrams/rnd/rnd.png  used on input line 244.
 (pdftex.def)             Requested size: 179.28024pt x 119.85477pt.
 
-Overfull \hbox (25.63531pt too wide) in paragraph at lines 235--235
+Overfull \hbox (25.63531pt too wide) in paragraph at lines 244--244
 [][]  
  []
 
-[10
+[11
 
 ]
-<../diagrams/rnd/modelrnd.png, id=154, 2300.595pt x 1132.23pt>
+<../diagrams/rnd/modelrnd.png, id=164, 2300.595pt x 1132.23pt>
 File: ../diagrams/rnd/modelrnd.png Graphic file (type png)
 <use ../diagrams/rnd/modelrnd.png>
-Package pdftex.def Info: ../diagrams/rnd/modelrnd.png  used on input line 243.
+Package pdftex.def Info: ../diagrams/rnd/modelrnd.png  used on input line 252.
 (pdftex.def)             Requested size: 276.0595pt x 135.86172pt.
- [11
+ [12
 
  <../diagrams/rnd/modelrnd.png>]
-<../diagrams/rnd/coupledrnd.png, id=165, 913.4125pt x 1136.245pt>
+<../diagrams/rnd/coupledrnd.png, id=175, 913.4125pt x 1136.245pt>
 File: ../diagrams/rnd/coupledrnd.png Graphic file (type png)
 <use ../diagrams/rnd/coupledrnd.png>
-Package pdftex.def Info: ../diagrams/rnd/coupledrnd.png  used on input line 261
+Package pdftex.def Info: ../diagrams/rnd/coupledrnd.png  used on input line 270
 .
 (pdftex.def)             Requested size: 164.40715pt x 204.51527pt.
 
-Overfull \hbox (10.76222pt too wide) in paragraph at lines 261--261
+Overfull \hbox (10.76222pt too wide) in paragraph at lines 270--270
 [][]  
  []
 
-<../images/coupled_orthogonal.png, id=166, 521.95pt x 193.72375pt>
+<../images/coupled_orthogonal.png, id=176, 521.95pt x 193.72375pt>
 File: ../images/coupled_orthogonal.png Graphic file (type png)
 <use ../images/coupled_orthogonal.png>
 Package pdftex.def Info: ../images/coupled_orthogonal.png  used on input line 2
-61.
+70.
 (pdftex.def)             Requested size: 167.0274pt x 61.99286pt.
 
-Overfull \hbox (13.38248pt too wide) in paragraph at lines 261--261
+Overfull \hbox (13.38248pt too wide) in paragraph at lines 270--270
 [][]  
- []
-
-[12
-
- <../diagrams/rnd/coupledrnd.png> <../images/coupled_orthogonal.png>]
-<../diagrams/rnd/modelppoa.png, id=178, 2768.3425pt x 1292.83pt>
-File: ../diagrams/rnd/modelppoa.png Graphic file (type png)
-<use ../diagrams/rnd/modelppoa.png>
-Package pdftex.def Info: ../diagrams/rnd/modelppoa.png  used on input line 269.
-
-(pdftex.def)             Requested size: 332.18677pt x 155.1329pt.
-
-Overfull \hbox (24.8969pt too wide) in paragraph at lines 269--269
- [][] 
  []
 
 [13
 
+ <../diagrams/rnd/coupledrnd.png> <../images/coupled_orthogonal.png>]
+<../diagrams/rnd/modelppoa.png, id=190, 2768.3425pt x 1292.83pt>
+File: ../diagrams/rnd/modelppoa.png Graphic file (type png)
+<use ../diagrams/rnd/modelppoa.png>
+Package pdftex.def Info: ../diagrams/rnd/modelppoa.png  used on input line 278.
+
+(pdftex.def)             Requested size: 332.18677pt x 155.1329pt.
+
+Overfull \hbox (24.8969pt too wide) in paragraph at lines 278--278
+ [][] 
+ []
+
+[14
+
  <../diagrams/rnd/modelppoa.png>]
-<../diagrams/rnd/modelppob.png, id=191, 2766.335pt x 1298.8525pt>
+<../diagrams/rnd/modelppob.png, id=201, 2766.335pt x 1298.8525pt>
 File: ../diagrams/rnd/modelppob.png Graphic file (type png)
 <use ../diagrams/rnd/modelppob.png>
-Package pdftex.def Info: ../diagrams/rnd/modelppob.png  used on input line 276.
+Package pdftex.def Info: ../diagrams/rnd/modelppob.png  used on input line 285.
 
 (pdftex.def)             Requested size: 276.6497pt x 129.89285pt.
- [14
+ [15
 
  <../diagrams/rnd/modelppob.png>]
-<../diagrams/rnd/modelppoc.png, id=202, 2555.5475pt x 1134.2375pt>
+<../diagrams/rnd/modelppoc.png, id=212, 2555.5475pt x 1134.2375pt>
 File: ../diagrams/rnd/modelppoc.png Graphic file (type png)
 <use ../diagrams/rnd/modelppoc.png>
-Package pdftex.def Info: ../diagrams/rnd/modelppoc.png  used on input line 284.
+Package pdftex.def Info: ../diagrams/rnd/modelppoc.png  used on input line 293.
 
 (pdftex.def)             Requested size: 306.65247pt x 136.10263pt.
 
-[15
+[16
 
- <../diagrams/rnd/modelppoc.png>] [16
+ <../diagrams/rnd/modelppoc.png>] [17
 
-] [17
+] [18
 
 ]
-<../images/breakout.png, id=237, 321.2pt x 394.47375pt>
+<../images/breakout.png, id=247, 321.2pt x 394.47375pt>
 File: ../images/breakout.png Graphic file (type png)
 <use ../images/breakout.png>
-Package pdftex.def Info: ../images/breakout.png  used on input line 326.
+Package pdftex.def Info: ../images/breakout.png  used on input line 335.
 (pdftex.def)             Requested size: 80.2998pt x 98.6182pt.
-<../results/breakout_score_per_iteration.png, id=238, 462.528pt x 346.896pt>
+<../results/breakout_score_per_iteration.png, id=248, 462.528pt x 346.896pt>
 File: ../results/breakout_score_per_iteration.png Graphic file (type png)
 <use ../results/breakout_score_per_iteration.png>
 Package pdftex.def Info: ../results/breakout_score_per_iteration.png  used on i
-nput line 326.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
- [18
-
- <../images/breakout.png> <../results/breakout_score_per_iteration.png>]
-<../images/pacman.png, id=258, 421.575pt x 451.6875pt>
-File: ../images/pacman.png Graphic file (type png)
-<use ../images/pacman.png>
-Package pdftex.def Info: ../images/pacman.png  used on input line 349.
-(pdftex.def)             Requested size: 105.39348pt x 112.92159pt.
-<../results/pacman_score_per_iteration.png, id=259, 462.528pt x 346.896pt>
-File: ../results/pacman_score_per_iteration.png Graphic file (type png)
-<use ../results/pacman_score_per_iteration.png>
-Package pdftex.def Info: ../results/pacman_score_per_iteration.png  used on inp
-ut line 349.
+nput line 335.
 (pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
  [19
 
+ <../images/breakout.png> <../results/breakout_score_per_iteration.png>]
+<../images/pacman.png, id=269, 421.575pt x 451.6875pt>
+File: ../images/pacman.png Graphic file (type png)
+<use ../images/pacman.png>
+Package pdftex.def Info: ../images/pacman.png  used on input line 358.
+(pdftex.def)             Requested size: 105.39348pt x 112.92159pt.
+<../results/pacman_score_per_iteration.png, id=270, 462.528pt x 346.896pt>
+File: ../results/pacman_score_per_iteration.png Graphic file (type png)
+<use ../results/pacman_score_per_iteration.png>
+Package pdftex.def Info: ../results/pacman_score_per_iteration.png  used on inp
+ut line 358.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+ [20
+
  <../images/pacman.png> <../results/pacman_score_per_iteration.png>]
-<../results/montezuma_ppo_rnd_a.png, id=280, 722.7pt x 722.7pt>
+<../results/montezuma_ppo_rnd_a.png, id=290, 722.7pt x 722.7pt>
 File: ../results/montezuma_ppo_rnd_a.png Graphic file (type png)
 <use ../results/montezuma_ppo_rnd_a.png>
 Package pdftex.def Info: ../results/montezuma_ppo_rnd_a.png  used on input line
- 376.
+ 385.
 (pdftex.def)             Requested size: 180.67455pt x 180.67455pt.
 
-Overfull \hbox (27.02962pt too wide) in paragraph at lines 376--376
+Overfull \hbox (27.02962pt too wide) in paragraph at lines 385--385
 [][]  
- []
-
-[20
-
- <../results/montezuma_ppo_rnd_a.png>]
-<../images/hide_and_seek.jpg, id=299, 2055.68pt x 1156.32pt>
-File: ../images/hide_and_seek.jpg Graphic file (type jpg)
-<use ../images/hide_and_seek.jpg>
-Package pdftex.def Info: ../images/hide_and_seek.jpg  used on input line 402.
-(pdftex.def)             Requested size: 164.45776pt x 92.50748pt.
-<../images/robot_doors.png, id=300, 746.79pt x 214.8025pt>
-File: ../images/robot_doors.png Graphic file (type png)
-<use ../images/robot_doors.png>
-Package pdftex.def Info: ../images/robot_doors.png  used on input line 402.
-(pdftex.def)             Requested size: 186.69704pt x 53.70049pt.
-
-Overfull \hbox (10.81284pt too wide) in paragraph at lines 402--402
-[][] 
- []
-
-
-Overfull \hbox (33.05211pt too wide) in paragraph at lines 402--402
-[]  
  []
 
 [21
 
- <../images/hide_and_seek.jpg> <../images/robot_doors.png>]
-<../images/me2.jpg, id=324, 2168.1pt x 2890.8pt>
-File: ../images/me2.jpg Graphic file (type jpg)
-<use ../images/me2.jpg>
-Package pdftex.def Info: ../images/me2.jpg  used on input line 414.
-(pdftex.def)             Requested size: 216.8227pt x 289.09694pt.
+ <../results/montezuma_ppo_rnd_a.png>]
+<../images/hide_and_seek.jpg, id=309, 2055.68pt x 1156.32pt>
+File: ../images/hide_and_seek.jpg Graphic file (type jpg)
+<use ../images/hide_and_seek.jpg>
+Package pdftex.def Info: ../images/hide_and_seek.jpg  used on input line 411.
+(pdftex.def)             Requested size: 164.45776pt x 92.50748pt.
+<../images/robot_doors.png, id=310, 746.79pt x 214.8025pt>
+File: ../images/robot_doors.png Graphic file (type png)
+<use ../images/robot_doors.png>
+Package pdftex.def Info: ../images/robot_doors.png  used on input line 411.
+(pdftex.def)             Requested size: 186.69704pt x 53.70049pt.
 
-Overfull \vbox (85.1877pt too high) detected at line 414
+Overfull \hbox (10.81284pt too wide) in paragraph at lines 411--411
+[][] 
+ []
+
+
+Overfull \hbox (33.05211pt too wide) in paragraph at lines 411--411
+[]  
  []
 
 [22
+
+ <../images/hide_and_seek.jpg> <../images/robot_doors.png>]
+<../images/me2.jpg, id=334, 2168.1pt x 2890.8pt>
+File: ../images/me2.jpg Graphic file (type jpg)
+<use ../images/me2.jpg>
+Package pdftex.def Info: ../images/me2.jpg  used on input line 423.
+(pdftex.def)             Requested size: 216.8227pt x 289.09694pt.
+
+Overfull \vbox (85.1877pt too high) detected at line 423
+ []
+
+[23
 
  <../images/me2.jpg>]
 \tf@nav=\write6
@@ -1763,19 +1772,19 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 417.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 417.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 426.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 426.
 (./3_rl_rnd.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 417.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 417.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 426.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 426.
 Package rerunfilecheck Info: File `3_rl_rnd.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 35391 strings out of 492616
- 669849 string characters out of 6129482
+ 35400 strings out of 492616
+ 670053 string characters out of 6129482
  885660 words of memory out of 5000000
- 38616 multiletter control sequences out of 15000+600000
+ 38622 multiletter control sequences out of 15000+600000
  600521 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,70p,799b,889s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1791,10 +1800,10 @@ e/2019/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2019/te
 xmf-dist/fonts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2019/texmf-dist/f
 onts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/
 public/lm/lmtt10.pfb>
-Output written on 3_rl_rnd.pdf (22 pages, 3850029 bytes).
+Output written on 3_rl_rnd.pdf (23 pages, 3947387 bytes).
 PDF statistics:
- 383 PDF objects out of 1000 (max. 8388607)
- 249 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 459 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 393 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 470 words of extra memory for PDF output out of 10000 (max. 10000000)
 
