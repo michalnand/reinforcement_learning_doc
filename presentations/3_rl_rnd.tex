@@ -172,6 +172,35 @@
 \end{frame}
 
 
+\begin{frame}{\bf pixel change motivation}
+
+\centering
+\includegraphics[scale=0.15]{../diagrams/internal_motivation/pixelchange.png}
+
+\end{frame}
+
+
+\begin{frame}{\bf next state prediction}
+
+\centering
+\includegraphics[scale=0.15]{../diagrams/internal_motivation/naive.png}
+
+\end{frame}
+
+
+\begin{frame}{\bf intrinsic curiosity module}
+
+\centering
+\includegraphics[scale=0.15]{../diagrams/internal_motivation/icm.png}
+
+\end{frame}
+
+\begin{frame}{\bf random network distillation}
+
+\centering
+\includegraphics[scale=0.15]{../diagrams/internal_motivation/rnd.png}
+
+\end{frame}
 
 
 \begin{frame}{\bf random network distillation}
@@ -196,6 +225,7 @@
         \item {\bf less visited states produce bigger motivation signal}
         \item orthogonal weights initialisation ($g=2^{0.5}$) for strong signal
         \item lot of fully connected layers {\bf to avoid generalisation}
+        \item {\bf coupled orthogonal models}
       \end{itemize}
     \end{column}
 
@@ -213,18 +243,43 @@
 \end{frame}
 
 
+\begin{frame}{\bf coupled RND architecture}
 
-\begin{frame}{\bf ppo model architecture}
+\begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      \includegraphics[scale=0.18]{../diagrams/rnd/coupledrnd.png}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \includegraphics[scale=0.32]{../images/coupled_orthogonal.png}
+    \end{column}
+
+\end{columns}
+
+
+\end{frame}
+
+
+\begin{frame}{\bf ppo model architecture A}
 
 \centering
 \includegraphics[scale=0.12]{../diagrams/rnd/modelppoa.png}
 
 \end{frame}
 
-\begin{frame}{\bf ppo model architecture}
+\begin{frame}{\bf ppo model architecture B}
 
 \centering
 \includegraphics[scale=0.1]{../diagrams/rnd/modelppob.png}
+
+\end{frame}
+
+
+\begin{frame}{\bf ppo model architecture C}
+
+\centering
+\includegraphics[scale=0.12]{../diagrams/rnd/modelppoc.png}
 
 \end{frame}
 
@@ -234,6 +289,66 @@
 TODO 
 
 \end{frame}
+
+
+\begin{frame}{\bf experiments}
+
+  \begin{itemize}
+    \item Breakout, without rewards
+    \item Pacman, without rewards
+    \item Montezuma's rewenge (tons of experiments)
+  \end{itemize}
+
+\end{frame}
+
+
+
+\begin{frame}{\bf breakout}
+
+  \begin{columns}
+
+      \begin{column}{0.5\textwidth}
+        \includegraphics[scale=0.25]{../images/breakout.png}
+        \includegraphics[scale=0.3]{../results/breakout_score_per_iteration.png}
+      \end{column}
+
+      \begin{column}{0.5\textwidth}
+        \begin{itemize}
+          \item 1M, 32parallel envs, total 32M steps
+          \item PPO model A
+          \item ext reward weight 2.0
+          \item int reward weight 1.0
+        \end{itemize}
+      \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+
+\begin{frame}{\bf pacman}
+
+  \begin{columns}
+
+      \begin{column}{0.5\textwidth}
+        \includegraphics[scale=0.25]{../images/pacman.png}
+        \includegraphics[scale=0.3]{../results/pacman_score_per_iteration.png}
+      \end{column}
+
+      \begin{column}{0.5\textwidth}
+        \begin{itemize}
+          \item 1M, 32parallel envs, total 32M steps
+          \item PPO model A
+          \item ext reward weight 2.0
+          \item int reward weight 1.0
+        \end{itemize}
+      \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+
 
 
 \begin{frame}{\bf results}
@@ -255,7 +370,7 @@ TODO
     \end{column}
 
 
-  \end{columns}
+\end{columns}
 
 
 \end{frame}
@@ -269,6 +384,7 @@ TODO
 
       \begin{column}{0.5\textwidth}
         \includegraphics[scale=0.08]{../images/hide_and_seek.jpg}
+        \includegraphics[scale=0.25]{../images/robot_doors.png}
       \end{column}
 
       \begin{column}{0.5\textwidth}
