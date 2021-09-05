@@ -266,34 +266,10 @@
 
 \end{columns}
 
-
 \end{frame}
 
 
-\begin{frame}{\bf ppo model architecture A}
-
-\centering
-\includegraphics[scale=0.12]{../diagrams/rnd/modelppoa.png}
-
-\end{frame}
-
-\begin{frame}{\bf ppo model architecture B}
-
-\centering
-\includegraphics[scale=0.1]{../diagrams/rnd/modelppob.png}
-
-\end{frame}
-
-
-\begin{frame}{\bf ppo model architecture C}
-
-\centering
-\includegraphics[scale=0.12]{../diagrams/rnd/modelppoc.png}
-
-\end{frame}
-
-
-\begin{frame}{\bf proximal policy optimization - PPO}
+\begin{frame}{\bf PPO - proximal policy optimization}
 
 Schulman, 2017, \url{https://arxiv.org/pdf/1707.06347.pdf} \\
 
@@ -331,6 +307,32 @@ Schulman, 2017, \url{https://arxiv.org/pdf/1707.06347.pdf} \\
   \end{align*} 
 
 \end{frame}
+
+
+
+
+\begin{frame}{\bf ppo model architecture A}
+
+\centering
+\includegraphics[scale=0.12]{../diagrams/rnd/modelppoa.png}
+
+\end{frame}
+
+\begin{frame}{\bf ppo model architecture B}
+
+\centering
+\includegraphics[scale=0.1]{../diagrams/rnd/modelppob.png}
+
+\end{frame}
+
+
+\begin{frame}{\bf ppo model architecture C}
+
+\centering
+\includegraphics[scale=0.12]{../diagrams/rnd/modelppoc.png}
+
+\end{frame}
+
 
 
 \begin{frame}{\bf experiments}
@@ -393,13 +395,13 @@ Schulman, 2017, \url{https://arxiv.org/pdf/1707.06347.pdf} \\
 
 
 
-\begin{frame}{\bf results}
+\begin{frame}{\bf montezuma results, model A}
 
 
 \begin{columns}
 
     \begin{column}{0.5\textwidth}
-      \includegraphics[scale=0.25]{../results/montezuma_ppo_rnd_a.png}
+      \includegraphics[scale=0.25]{../results/ppo_rnd_a_0.png}
     \end{column}
 
     \begin{column}{0.5\textwidth}
@@ -414,6 +416,66 @@ Schulman, 2017, \url{https://arxiv.org/pdf/1707.06347.pdf} \\
 
 \end{columns}
 
+
+\end{frame}
+
+
+\begin{frame}{\bf montezuma results, model B}
+
+- training in progress
+
+\begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      \includegraphics[scale=0.25]{../results/ppo_rnd_b_0.png}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item 1M  steps - {\bf 20\% of original paper}
+        \item 128 parallel envs = total 128M steps
+        \item {\bf score 6400}
+        \item {\bf 8 rooms explored}
+      \end{itemize}
+    \end{column}
+
+
+\end{columns}
+
+
+\end{frame}
+
+
+
+\begin{frame}{\bf montezuma results, model C}
+
+\begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      \includegraphics[scale=0.25]{../results/ppo_rnd_d_0.png}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item 1M  steps - {\bf 20\% of original paper}
+        \item 128 parallel envs = total 128M steps
+        \item {\bf score 6400}
+        \item {\bf 9 rooms explored}
+      \end{itemize}
+    \end{column}
+
+
+\end{columns}
+
+
+\end{frame}
+
+
+
+
+\begin{frame}{\bf montezuma results, summary}
+  \centering
+  \includegraphics[scale=0.5]{../results/summary.png}
 
 \end{frame}
 
@@ -446,13 +508,23 @@ Schulman, 2017, \url{https://arxiv.org/pdf/1707.06347.pdf} \\
 
 \begin{frame}{\bf Q\&A}
 
-\centering{\includegraphics[scale=0.1]{../images/me2.jpg}}
 
-\url{michal.nand@gmail.com}
+\begin{columns}
 
-\url{https://github.com/michalnand/}
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.08]{../images/me2.jpg}}
+    \end{column}
 
- 
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item \url{https://github.com/michalnand/}
+        \item \url{michal.nand@gmail.com}
+      \end{itemize}
+    \end{column}
+
+
+\end{columns}
+
 \end{frame}
 
 
