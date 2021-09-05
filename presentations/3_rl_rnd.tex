@@ -293,9 +293,42 @@
 \end{frame}
 
 
-\begin{frame}{\bf loss}
+\begin{frame}{\bf proximal policy optimization - PPO}
 
-TODO 
+Schulman, 2017, \url{https://arxiv.org/pdf/1707.06347.pdf} \\
+
+\centering
+\includegraphics[scale=0.12]{../diagrams/basic/ppo.png}
+
+\end{frame}
+
+
+\begin{frame}{\bf PPO - computing target values and returns}
+
+  \centering
+  \includegraphics[scale=0.12]{../diagrams/basic/pporeturns.png}
+
+  \begin{enumerate}
+    \item compute returns (target values), using Q-learning
+    \item compute advantages as difference between returns and current values
+  \end{enumerate}
+
+\end{frame}
+
+
+\begin{frame}{\bf PPO - training models}
+
+  \centering
+  \includegraphics[scale=0.12]{../diagrams/basic/ppotrain.png}
+
+  \begin{itemize}
+    \item critic uses common MSE loss
+    \item actors uses loss (excluding clipping terms)
+  \end{itemize}
+
+  \begin{align*}
+  \mathcal{L} &= \frac{1}{N} \sum_{n}^{N} \frac{\pi^{now}(a_n | s_n)} {\pi^{prev}(a_n | s_n)} A_n^{{\pi}^{old}}
+  \end{align*} 
 
 \end{frame}
 
