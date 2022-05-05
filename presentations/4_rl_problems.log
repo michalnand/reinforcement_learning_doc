@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  4 MAY 2022 19:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  5 MAY 2022 18:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1078,20 +1078,51 @@ Package pdftex.def Info: ../images/rma.png  used on input line 329.
 
 ] [18
 
-] [19
+]
+<../diagrams/rnd/rndsiamdetail.png, id=564, 1822.81pt x 1361.085pt>
+File: ../diagrams/rnd/rndsiamdetail.png Graphic file (type png)
+<use ../diagrams/rnd/rndsiamdetail.png>
+Package pdftex.def Info: ../diagrams/rnd/rndsiamdetail.png  used on input line 
+386.
+(pdftex.def)             Requested size: 127.60973pt x 95.28568pt.
+<../images/rnd_no_trained.png, id=565, 462.528pt x 346.896pt>
+File: ../images/rnd_no_trained.png Graphic file (type png)
+<use ../images/rnd_no_trained.png>
+Package pdftex.def Info: ../images/rnd_no_trained.png  used on input line 386.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<../images/rnd_siam_trained.png, id=566, 448.7967pt x 362.0727pt>
+File: ../images/rnd_siam_trained.png Graphic file (type png)
+<use ../images/rnd_siam_trained.png>
+Package pdftex.def Info: ../images/rnd_siam_trained.png  used on input line 386
+.
+(pdftex.def)             Requested size: 134.64005pt x 108.62263pt.
+ [19
+
+ <../diagrams/rnd/rndsiamdetail.png> <../images/rnd_no_trained.png> <../images/
+rnd_siam_trained.png>]
+<../diagrams/symmetry/basic.png, id=597, 1330.9725pt x 993.7125pt>
+File: ../diagrams/symmetry/basic.png Graphic file (type png)
+<use ../diagrams/symmetry/basic.png>
+Package pdftex.def Info: ../diagrams/symmetry/basic.png  used on input line 399
+.
+(pdftex.def)             Requested size: 199.63725pt x 149.05043pt.
+
+[20
+
+ <../diagrams/symmetry/basic.png>] [21
 
 ]
-<../images/me3.jpg, id=595, 2168.1pt x 2890.8pt>
+<../images/me3.jpg, id=656, 2168.1pt x 2890.8pt>
 File: ../images/me3.jpg Graphic file (type jpg)
 <use ../images/me3.jpg>
-Package pdftex.def Info: ../images/me3.jpg  used on input line 406.
+Package pdftex.def Info: ../images/me3.jpg  used on input line 438.
 (pdftex.def)             Requested size: 173.45154pt x 231.26872pt.
 
-Overfull \hbox (19.80661pt too wide) in paragraph at lines 406--406
+Overfull \hbox (19.80661pt too wide) in paragraph at lines 438--438
  [][] 
  []
 
-[20
+[22
 
  <../images/me3.jpg>]
 \tf@nav=\write6
@@ -1108,10 +1139,10 @@ Package rerunfilecheck Info: File `4_rl_problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21743 strings out of 479719
- 429113 string characters out of 5880574
+ 21781 strings out of 479719
+ 430134 string characters out of 5880574
  675045 words of memory out of 5000000
- 39223 multiletter control sequences out of 15000+600000
+ 39251 multiletter control sequences out of 15000+600000
  484116 words of font info for 83 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  99i,18n,104p,434b,906s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1128,11 +1159,12 @@ blic/amsfonts/cm/cmss9.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1
 fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2022basic/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022basic/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022basic/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on 4_rl_problems.pdf (20 pages, 9052931 bytes).
+texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022ba
+sic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on 4_rl_problems.pdf (22 pages, 9542978 bytes).
 PDF statistics:
- 690 PDF objects out of 1000 (max. 8388607)
- 589 compressed objects within 6 object streams
- 41 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 757 PDF objects out of 1000 (max. 8388607)
+ 643 compressed objects within 7 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 188 words of extra memory for PDF output out of 10000 (max. 10000000)
 
