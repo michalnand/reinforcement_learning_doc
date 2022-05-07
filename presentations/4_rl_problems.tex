@@ -138,6 +138,18 @@
 
 
 
+\begin{frame}
+  
+  \frametitle{why so hard ?} 
+
+  {Investigating Human Priors for Playing Video Games \footnote{\href{https://arxiv.org/pdf/1802.10217.pdf}{Dubey et al. 2018}} }
+
+  \centering
+  \includegraphics[scale=0.25]{../papers_captions/human_priors_0.png}
+  \includegraphics[scale=0.25]{../papers_captions/human_priors_1.png}
+  
+\end{frame}
+
 
 \begin{frame}
   
@@ -293,8 +305,6 @@
   
   \end{columns}
 
-  \includegraphics[scale=0.25]{../papers_captions/icm_a.png}
-
 
 \end{frame}
 
@@ -349,6 +359,62 @@
 
   NGU on my machine means {\bf 740 days} !!!
 \end{frame}
+
+
+\begin{frame}
+  
+  \frametitle{misleading papers - Curiosity-driven Exploration by Self-supervised Prediction \footnote{\href{https://arxiv.org/abs/1705.05363}{Pathak et al. 2017}}}
+  
+  \begin{itemize}
+    \item not working on REAL hard exploration problems
+    \item Super Mario is special case - moving forward is close to optimal policy
+    \item inverse ICM model - why they didn't shown accuracy (my results arround 40\% !!! even given policy)
+    \item how predicted state looks ?
+  \end{itemize}
+
+  \centering
+  \includegraphics[scale=0.25]{../papers_captions/icm_a.png}
+
+\end{frame}
+
+
+
+\begin{frame}
+  
+  \frametitle{misleading papers - Never give up \footnote{\href{https://arxiv.org/pdf/2002.06038.pdf}{Badia et al. 2020}}}
+  nice looking score, but on cost of $3.5*10^{10}$ samples !!!
+  
+  \centering
+  \includegraphics[scale=0.25]{../papers_captions/ngu_block.png}
+
+  \centering
+  \includegraphics[scale=0.25]{../papers_captions/ngu_result.png}
+
+\end{frame}
+
+
+
+\begin{frame}
+  
+  \frametitle{other misleadings}
+
+  \centering
+  {\bf avoiding comparing with SOTA or common benchmarks results} :
+  Episodic Curiosity Through Reachability, Savinov, 2019 
+  \includegraphics[scale=0.25]{../papers_captions/ecr.png}
+  \bigskip
+
+  many other :
+
+  \begin{itemize}
+    \item simple gridworld or toy environment experiments
+    \item providing key prior information (e.g. possition)
+    \item selecting only "good" results
+  \end{itemize}
+
+\end{frame}
+
+
 
 
 \begin{frame}
