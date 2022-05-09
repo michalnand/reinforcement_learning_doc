@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  6 MAY 2022 16:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  9 MAY 2022 20:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1017,155 +1017,163 @@ Package pdftex.def Info: ../diagrams/basic/ppo.png  used on input line 216.
  <../diagrams/basic/ppo.png>] [11
 
 ]
-Overfull \hbox (6.94975pt too wide) in paragraph at lines 259--259
+<../images/montezuma_level_1.png, id=357, 1004.75375pt x 515.9275pt>
+File: ../images/montezuma_level_1.png Graphic file (type png)
+<use ../images/montezuma_level_1.png>
+Package pdftex.def Info: ../images/montezuma_level_1.png  used on input line 23
+8.
+(pdftex.def)             Requested size: 301.42845pt x 154.77943pt.
+ [12
+
+ <../images/montezuma_level_1.png>]
+Overfull \hbox (6.94975pt too wide) in paragraph at lines 269--269
  [] 
  []
 
 
-Overfull \vbox (1.606pt too high) detected at line 259
- []
-
-[12
-
-]
-<../papers_captions/icm.png, id=387, 609.27625pt x 307.1475pt>
-File: ../papers_captions/icm.png Graphic file (type png)
-<use ../papers_captions/icm.png>
-Package pdftex.def Info: ../papers_captions/icm.png  used on input line 287.
-(pdftex.def)             Requested size: 152.31868pt x 76.78668pt.
-<../diagrams/internal_motivation/icm.png, id=388, 1800.7275pt x 1029.8475pt>
-File: ../diagrams/internal_motivation/icm.png Graphic file (type png)
-<use ../diagrams/internal_motivation/icm.png>
-Package pdftex.def Info: ../diagrams/internal_motivation/icm.png  used on input
- line 287.
-(pdftex.def)             Requested size: 180.0833pt x 102.99078pt.
-
-Overfull \hbox (26.43837pt too wide) in paragraph at lines 287--287
- [][] 
+Overfull \vbox (1.606pt too high) detected at line 269
  []
 
 [13
 
- <../papers_captions/icm.png> <../diagrams/internal_motivation/icm.png>]
-<../diagrams/internal_motivation/rnd.png, id=419, 1461.46pt x 634.37pt>
-File: ../diagrams/internal_motivation/rnd.png Graphic file (type png)
-<use ../diagrams/internal_motivation/rnd.png>
-Package pdftex.def Info: ../diagrams/internal_motivation/rnd.png  used on input
- line 309.
-(pdftex.def)             Requested size: 146.15456pt x 63.4407pt.
-<../images/montezuma.png, id=420, 339.2675pt x 445.665pt>
-File: ../images/montezuma.png Graphic file (type png)
-<use ../images/montezuma.png>
-Package pdftex.def Info: ../images/montezuma.png  used on input line 309.
-(pdftex.def)             Requested size: 101.78102pt x 133.70053pt.
-
-[14
-
- <../diagrams/internal_motivation/rnd.png> <../images/montezuma.png>]
-<../images/hide_and_seek.png, id=451, 619.31375pt x 589.20125pt>
-File: ../images/hide_and_seek.png Graphic file (type png)
-<use ../images/hide_and_seek.png>
-Package pdftex.def Info: ../images/hide_and_seek.png  used on input line 320.
-(pdftex.def)             Requested size: 185.79555pt x 176.76173pt.
-
-[15
-
- <../images/hide_and_seek.png>]
-<../images/generalisation.png, id=480, 1112.155pt x 801.99625pt>
-File: ../images/generalisation.png Graphic file (type png)
-<use ../images/generalisation.png>
-Package pdftex.def Info: ../images/generalisation.png  used on input line 330.
-(pdftex.def)             Requested size: 278.03807pt x 200.49857pt.
- [16
-
- <../images/generalisation.png>]
-<../images/rma.png, id=510, 857.2025pt x 575.14874pt>
-File: ../images/rma.png Graphic file (type png)
-<use ../images/rma.png>
-Package pdftex.def Info: ../images/rma.png  used on input line 339.
-(pdftex.def)             Requested size: 214.3001pt x 143.78683pt.
- [17
-
- <../images/rma.png>] [18
-
 ]
-<../papers_captions/icm_a.png, id=567, 658.46pt x 145.54375pt>
-File: ../papers_captions/icm_a.png Graphic file (type png)
-<use ../papers_captions/icm_a.png>
-Package pdftex.def Info: ../papers_captions/icm_a.png  used on input line 378.
-(pdftex.def)             Requested size: 164.6146pt x 36.38583pt.
- [19
+<../papers_captions/icm.png, id=415, 609.27625pt x 307.1475pt>
+File: ../papers_captions/icm.png Graphic file (type png)
+<use ../papers_captions/icm.png>
+Package pdftex.def Info: ../papers_captions/icm.png  used on input line 297.
+(pdftex.def)             Requested size: 152.31868pt x 76.78668pt.
+<../diagrams/internal_motivation/icm.png, id=416, 1800.7275pt x 1029.8475pt>
+File: ../diagrams/internal_motivation/icm.png Graphic file (type png)
+<use ../diagrams/internal_motivation/icm.png>
+Package pdftex.def Info: ../diagrams/internal_motivation/icm.png  used on input
+ line 297.
+(pdftex.def)             Requested size: 180.0833pt x 102.99078pt.
 
- <../papers_captions/icm_a.png>]
-<../papers_captions/ngu_block.png, id=597, 727.71875pt x 335.2525pt>
-File: ../papers_captions/ngu_block.png Graphic file (type png)
-<use ../papers_captions/ngu_block.png>
-Package pdftex.def Info: ../papers_captions/ngu_block.png  used on input line 3
-93.
-(pdftex.def)             Requested size: 181.92923pt x 83.81291pt.
-<../papers_captions/ngu_result.png, id=598, 765.86125pt x 373.395pt>
-File: ../papers_captions/ngu_result.png Graphic file (type png)
-<use ../papers_captions/ngu_result.png>
-Package pdftex.def Info: ../papers_captions/ngu_result.png  used on input line 
-393.
-(pdftex.def)             Requested size: 191.46484pt x 93.34851pt.
- [20
-
- <../papers_captions/ngu_block.png> <../papers_captions/ngu_result.png>]
-<../papers_captions/ecr.png, id=629, 730.73pt x 354.32375pt>
-File: ../papers_captions/ecr.png Graphic file (type png)
-<use ../papers_captions/ecr.png>
-Package pdftex.def Info: ../papers_captions/ecr.png  used on input line 415.
-(pdftex.def)             Requested size: 182.68205pt x 88.58072pt.
- [21
-
- <../papers_captions/ecr.png>] [22
-
-]
-<../diagrams/rnd/rndsiamdetail.png, id=683, 1822.81pt x 1361.085pt>
-File: ../diagrams/rnd/rndsiamdetail.png Graphic file (type png)
-<use ../diagrams/rnd/rndsiamdetail.png>
-Package pdftex.def Info: ../diagrams/rnd/rndsiamdetail.png  used on input line 
-452.
-(pdftex.def)             Requested size: 127.60973pt x 95.28568pt.
-<../images/rnd_no_trained.png, id=684, 462.528pt x 346.896pt>
-File: ../images/rnd_no_trained.png Graphic file (type png)
-<use ../images/rnd_no_trained.png>
-Package pdftex.def Info: ../images/rnd_no_trained.png  used on input line 452.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<../images/rnd_siam_trained.png, id=685, 448.7967pt x 362.0727pt>
-File: ../images/rnd_siam_trained.png Graphic file (type png)
-<use ../images/rnd_siam_trained.png>
-Package pdftex.def Info: ../images/rnd_siam_trained.png  used on input line 452
-.
-(pdftex.def)             Requested size: 134.64005pt x 108.62263pt.
- [23
-
- <../diagrams/rnd/rndsiamdetail.png> <../images/rnd_no_trained.png> <../images/
-rnd_siam_trained.png>]
-<../diagrams/symmetry/basic.png, id=716, 1330.9725pt x 993.7125pt>
-File: ../diagrams/symmetry/basic.png Graphic file (type png)
-<use ../diagrams/symmetry/basic.png>
-Package pdftex.def Info: ../diagrams/symmetry/basic.png  used on input line 465
-.
-(pdftex.def)             Requested size: 199.63725pt x 149.05043pt.
- [24
-
- <../diagrams/symmetry/basic.png>]
-[25
-
-]
-<../images/me3.jpg, id=775, 2168.1pt x 2890.8pt>
-File: ../images/me3.jpg Graphic file (type jpg)
-<use ../images/me3.jpg>
-Package pdftex.def Info: ../images/me3.jpg  used on input line 504.
-(pdftex.def)             Requested size: 173.45154pt x 231.26872pt.
-
-Overfull \hbox (19.80661pt too wide) in paragraph at lines 504--504
+Overfull \hbox (26.43837pt too wide) in paragraph at lines 297--297
  [][] 
  []
 
+[14
+
+ <../papers_captions/icm.png> <../diagrams/internal_motivation/icm.png>]
+<../diagrams/internal_motivation/rnd.png, id=446, 1461.46pt x 634.37pt>
+File: ../diagrams/internal_motivation/rnd.png Graphic file (type png)
+<use ../diagrams/internal_motivation/rnd.png>
+Package pdftex.def Info: ../diagrams/internal_motivation/rnd.png  used on input
+ line 319.
+(pdftex.def)             Requested size: 146.15456pt x 63.4407pt.
+<../images/montezuma.png, id=447, 339.2675pt x 445.665pt>
+File: ../images/montezuma.png Graphic file (type png)
+<use ../images/montezuma.png>
+Package pdftex.def Info: ../images/montezuma.png  used on input line 319.
+(pdftex.def)             Requested size: 101.78102pt x 133.70053pt.
+
+[15
+
+ <../diagrams/internal_motivation/rnd.png> <../images/montezuma.png>]
+<../images/hide_and_seek.png, id=478, 619.31375pt x 589.20125pt>
+File: ../images/hide_and_seek.png Graphic file (type png)
+<use ../images/hide_and_seek.png>
+Package pdftex.def Info: ../images/hide_and_seek.png  used on input line 330.
+(pdftex.def)             Requested size: 185.79555pt x 176.76173pt.
+
+[16
+
+ <../images/hide_and_seek.png>]
+<../images/generalisation.png, id=508, 1112.155pt x 801.99625pt>
+File: ../images/generalisation.png Graphic file (type png)
+<use ../images/generalisation.png>
+Package pdftex.def Info: ../images/generalisation.png  used on input line 340.
+(pdftex.def)             Requested size: 278.03807pt x 200.49857pt.
+ [17
+
+ <../images/generalisation.png>]
+<../images/rma.png, id=537, 857.2025pt x 575.14874pt>
+File: ../images/rma.png Graphic file (type png)
+<use ../images/rma.png>
+Package pdftex.def Info: ../images/rma.png  used on input line 349.
+(pdftex.def)             Requested size: 214.3001pt x 143.78683pt.
+ [18
+
+ <../images/rma.png>] [19
+
+]
+<../papers_captions/icm_a.png, id=595, 658.46pt x 145.54375pt>
+File: ../papers_captions/icm_a.png Graphic file (type png)
+<use ../papers_captions/icm_a.png>
+Package pdftex.def Info: ../papers_captions/icm_a.png  used on input line 388.
+(pdftex.def)             Requested size: 164.6146pt x 36.38583pt.
+ [20
+
+ <../papers_captions/icm_a.png>]
+<../papers_captions/ngu_block.png, id=625, 727.71875pt x 335.2525pt>
+File: ../papers_captions/ngu_block.png Graphic file (type png)
+<use ../papers_captions/ngu_block.png>
+Package pdftex.def Info: ../papers_captions/ngu_block.png  used on input line 4
+03.
+(pdftex.def)             Requested size: 181.92923pt x 83.81291pt.
+<../papers_captions/ngu_result.png, id=626, 765.86125pt x 373.395pt>
+File: ../papers_captions/ngu_result.png Graphic file (type png)
+<use ../papers_captions/ngu_result.png>
+Package pdftex.def Info: ../papers_captions/ngu_result.png  used on input line 
+403.
+(pdftex.def)             Requested size: 191.46484pt x 93.34851pt.
+ [21
+
+ <../papers_captions/ngu_block.png> <../papers_captions/ngu_result.png>]
+<../papers_captions/ecr.png, id=656, 730.73pt x 354.32375pt>
+File: ../papers_captions/ecr.png Graphic file (type png)
+<use ../papers_captions/ecr.png>
+Package pdftex.def Info: ../papers_captions/ecr.png  used on input line 425.
+(pdftex.def)             Requested size: 182.68205pt x 88.58072pt.
+ [22
+
+ <../papers_captions/ecr.png>] [23
+
+]
+<../diagrams/rnd/rndsiamdetail.png, id=711, 1822.81pt x 1361.085pt>
+File: ../diagrams/rnd/rndsiamdetail.png Graphic file (type png)
+<use ../diagrams/rnd/rndsiamdetail.png>
+Package pdftex.def Info: ../diagrams/rnd/rndsiamdetail.png  used on input line 
+462.
+(pdftex.def)             Requested size: 127.60973pt x 95.28568pt.
+<../images/rnd_features.png, id=712, 626.5809pt x 500.8311pt>
+File: ../images/rnd_features.png Graphic file (type png)
+<use ../images/rnd_features.png>
+Package pdftex.def Info: ../images/rnd_features.png  used on input line 462.
+(pdftex.def)             Requested size: 125.31395pt x 100.16444pt.
+<../images/snd_features.png, id=713, 639.5895pt x 529.7391pt>
+File: ../images/snd_features.png Graphic file (type png)
+<use ../images/snd_features.png>
+Package pdftex.def Info: ../images/snd_features.png  used on input line 462.
+(pdftex.def)             Requested size: 127.91562pt x 105.94594pt.
+ [24
+
+ <../diagrams/rnd/rndsiamdetail.png> <../images/rnd_features.png> <../images/sn
+d_features.png>]
+<../diagrams/symmetry/basic.png, id=743, 1330.9725pt x 993.7125pt>
+File: ../diagrams/symmetry/basic.png Graphic file (type png)
+<use ../diagrams/symmetry/basic.png>
+Package pdftex.def Info: ../diagrams/symmetry/basic.png  used on input line 475
+.
+(pdftex.def)             Requested size: 199.63725pt x 149.05043pt.
+ [25
+
+ <../diagrams/symmetry/basic.png>]
 [26
+
+]
+<../images/me3.jpg, id=802, 2168.1pt x 2890.8pt>
+File: ../images/me3.jpg Graphic file (type jpg)
+<use ../images/me3.jpg>
+Package pdftex.def Info: ../images/me3.jpg  used on input line 514.
+(pdftex.def)             Requested size: 173.45154pt x 231.26872pt.
+
+Overfull \hbox (19.80661pt too wide) in paragraph at lines 514--514
+ [][] 
+ []
+
+[27
 
  <../images/me3.jpg>]
 \tf@nav=\write6
@@ -1182,10 +1190,10 @@ Package rerunfilecheck Info: File `4_rl_problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21832 strings out of 479719
- 431489 string characters out of 5880574
+ 21843 strings out of 479719
+ 431720 string characters out of 5880574
  675045 words of memory out of 5000000
- 39289 multiletter control sequences out of 15000+600000
+ 39297 multiletter control sequences out of 15000+600000
  484116 words of font info for 83 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  99i,18n,104p,434b,906s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1204,10 +1212,10 @@ ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022basic/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022basic/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022ba
 sic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on 4_rl_problems.pdf (26 pages, 12570564 bytes).
+Output written on 4_rl_problems.pdf (27 pages, 12664542 bytes).
 PDF statistics:
- 877 PDF objects out of 1000 (max. 8388607)
- 748 compressed objects within 8 object streams
- 53 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 905 PDF objects out of 1000 (max. 8388607)
+ 774 compressed objects within 8 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
 
