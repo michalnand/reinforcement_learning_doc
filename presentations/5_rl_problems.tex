@@ -140,6 +140,23 @@
 \end{frame}
 
 
+\begin{frame}
+  
+  \frametitle{PPO - proximal policy optimisation} 
+
+  \centering
+  \includegraphics[scale=0.1]{../diagrams/basic/ppo.png}
+
+  
+  naive Actor-Critic vs PPO loss: 
+  \begin{align*}
+    \mathcal{L(\theta)} &= -log \pi(a_n \vert s_n ; \theta) \Big( R(s_n, a_n) - V(s_n) \Big) - \beta\mathcal{H(\pi)} \\
+    \mathcal{L(\theta)} &= -log \frac{\pi(a_n \vert s_n ; \theta)}{\pi(a_n \vert s_n ; \theta_{old})} \Big( R(s_n, a_n) - V(s_n) \Big) - \beta\mathcal{H(\pi)} \\
+  \end{align*} 
+
+\end{frame}
+
+
 
 \begin{frame}{\bf Montezuma's Revenge}
 
