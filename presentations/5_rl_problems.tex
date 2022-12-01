@@ -192,20 +192,20 @@
   
   \begin{columns}
       \column{\dimexpr\paperwidth-10pt}
-  
-        source : \url{https://paperswithcode.com/sota/atari-games-on-atari-2600-montezumas-revenge}
-  
+    
   
         \begin{table}[]
         \begin{tabular}{|l|l|l|}
         \hline
         \textbf{year} & \textbf{name}                                       & \textbf{score} \\ \hline
         2015          & Deep Reinforcement Learning with Double Q-learning  & 0              \\ \hline
-        2017          & Curiosity-driven Exploration by Self-supervised Prediction \footnote[1]{https://arxiv.org/abs/1705.05363} & 0       \\ \hline 
+        2017          & Curiosity-driven Exploration  \footnote[1]{https://arxiv.org/abs/1705.05363} & 0       \\ \hline 
         2021          & MuZero                                              & 2500           \\ \hline
         2018          & Count-Based Exploration with Neural Density Models \footnote[2]{https://arxiv.org/abs/1703.01310}  & 3705           \\ \hline
-        \textbf{2019} & \textbf{Exploration by Random Network Distillation} \footnote[3]{https://arxiv.org/abs/1810.12894}& \textbf{8152}  \\ \hline
+        2019          & Exploration by Random Network Distillation  \footnote[3]{https://arxiv.org/abs/1810.12894}& 8152  \\ \hline
         2021          & GoExplore$^*$ \footnote[4]{https://arxiv.org/abs/2004.12919}                         & 43 000         \\ \hline
+        2022          & Byol Explore \footnote[5]{https://arxiv.org/abs/2206.08332}                      & 13 518       \\ \hline
+        \textbf{2022/3}        & \textbf{Self Supervised Exploration}        & \textbf{25 000}        \\ \hline
         \end{tabular}
         \end{table}
   
@@ -218,10 +218,10 @@
   
   
   \begin{frame}{\bf state of the art score}
-  
+
   \centering
   \includegraphics[scale=0.2]{../images/montezuma_progress.png}
-  
+  source : \url{https://paperswithcode.com/sota/atari-games-on-atari-2600-montezumas-revenge}
   
 \end{frame}
 
@@ -445,7 +445,7 @@
   \begin{itemize}
     \item RND \footnote{\href{https://arxiv.org/pdf/1810.12894.pdf}{Burda et al. 2018}} $4.5*10^9$ samples, score 8152 on MR
     \item Never give up \footnote{\href{https://arxiv.org/pdf/2002.06038.pdf}{Badia et al. 2020}} $3.5*10^{10}$ samples, score 10 000 on MR
-    \item SND $1.28*10^8$ score 10 000 on MR 
+    \item CND $1.28*10^8$ score 25 000 on MR 
   \end{itemize}
 
   NGU on my machine means {\bf 740 days} !!!
@@ -513,7 +513,8 @@
   \frametitle{my current research}
 
     \begin{itemize}
-      \item siamese network distillation - reached SOTA score with 1/100 samples
+      \item self supervised network distillation - reached SOTA score with 1/100 samples
+      \item raising entropy driven exploration 
       \item symmetry driven generalisation, Noether's theorem in RL
     \end{itemize}
 
@@ -521,10 +522,10 @@
 
 \begin{frame}
   
-  \frametitle{siamese network distillation}
+  \frametitle{exploration by self supervised network distillation}
 
   \centering
-  \includegraphics[scale=0.07]{../diagrams/rnd/rndsiamdetail.png}
+  \includegraphics[scale=0.07]{../diagrams/cnd/overview.png}
   \bigskip
   \begin{columns}
 
@@ -542,6 +543,16 @@
 
 \end{frame}
 
+
+\begin{frame}
+  
+  \frametitle{raising entropy driven exploration }
+
+  \centering
+  \includegraphics[scale=0.15]{../diagrams/cnd/entropy.png}
+
+\end{frame}
+
 \begin{frame}
   
   \frametitle{symmetry driven generalisation \footnote{\href{https://geometricdeeplearning.com/lectures/}{Bronstein et al. 2021} Geometric deep learning - some trivial hand-crafted symmetries} }
@@ -553,9 +564,7 @@
     \forall (s_{n},s_{n+1} \vert a) : f \Big( s_{n}, s_{n+1}; \theta \Big) = const_a \footnotemark
   \end{align*} 
   \footnotetext{avoid trivial collapse}
-
-
-   
+ 
 \end{frame}
 
 
@@ -582,7 +591,7 @@
   \begin{columns}
 
     \begin{column}{0.5\textwidth}
-      \centering{\includegraphics[scale=0.08]{../images/me3.jpg}}
+      \centering{\includegraphics[scale=0.08]{../images/me.jpg}}
     \end{column}
 
     \begin{column}{0.5\textwidth}

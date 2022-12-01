@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  28 JUN 2022 08:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  1 DEC 2022 21:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -994,14 +994,14 @@ Package pdftex.def Info: ../images/montezuma.png  used on input line 187.
  [8
 
  <../images/montezuma.png>]
-Overfull \hbox (6.94975pt too wide) in paragraph at lines 217--217
+Overfull \hbox (5.52176pt too wide) in paragraph at lines 217--217
  [] 
  []
 
 [9
 
 ]
-<../images/montezuma_progress.png, id=299, 1169.36874pt x 888.31876pt>
+<../images/montezuma_progress.png, id=296, 1169.36874pt x 888.31876pt>
 File: ../images/montezuma_progress.png Graphic file (type png)
 <use ../images/montezuma_progress.png>
 Package pdftex.def Info: ../images/montezuma_progress.png  used on input line 2
@@ -1204,51 +1204,59 @@ Package pdftex.def Info: ../papers_captions/ecr.png  used on input line 506.
  <../papers_captions/ecr.png>] [28
 
 ]
-<../diagrams/rnd/rndsiamdetail.png, id=852, 1822.81pt x 1361.085pt>
-File: ../diagrams/rnd/rndsiamdetail.png Graphic file (type png)
-<use ../diagrams/rnd/rndsiamdetail.png>
-Package pdftex.def Info: ../diagrams/rnd/rndsiamdetail.png  used on input line 
-543.
-(pdftex.def)             Requested size: 127.60973pt x 95.28568pt.
+<../diagrams/cnd/overview.png, id=852, 1762.585pt x 1324.95pt>
+File: ../diagrams/cnd/overview.png Graphic file (type png)
+<use ../diagrams/cnd/overview.png>
+Package pdftex.def Info: ../diagrams/cnd/overview.png  used on input line 544.
+(pdftex.def)             Requested size: 123.39355pt x 92.75597pt.
 <../images/rnd_features.png, id=853, 626.5809pt x 500.8311pt>
 File: ../images/rnd_features.png Graphic file (type png)
 <use ../images/rnd_features.png>
-Package pdftex.def Info: ../images/rnd_features.png  used on input line 543.
+Package pdftex.def Info: ../images/rnd_features.png  used on input line 544.
 (pdftex.def)             Requested size: 125.31395pt x 100.16444pt.
 <../images/snd_features.png, id=854, 639.5895pt x 529.7391pt>
 File: ../images/snd_features.png Graphic file (type png)
 <use ../images/snd_features.png>
-Package pdftex.def Info: ../images/snd_features.png  used on input line 543.
+Package pdftex.def Info: ../images/snd_features.png  used on input line 544.
 (pdftex.def)             Requested size: 127.91562pt x 105.94594pt.
  [29
 
- <../diagrams/rnd/rndsiamdetail.png> <../images/rnd_features.png> <../images/sn
-d_features.png>]
-<../diagrams/symmetry/basic.png, id=884, 1330.9725pt x 993.7125pt>
-File: ../diagrams/symmetry/basic.png Graphic file (type png)
-<use ../diagrams/symmetry/basic.png>
-Package pdftex.def Info: ../diagrams/symmetry/basic.png  used on input line 559
-.
-(pdftex.def)             Requested size: 199.63725pt x 149.05043pt.
+ <../diagrams/cnd/overview.png> <../images/rnd_features.png> <../images/snd_fea
+tures.png>]
+<../diagrams/cnd/entropy.png, id=884, 1648.1575pt x 1318.9275pt>
+File: ../diagrams/cnd/entropy.png Graphic file (type png)
+<use ../diagrams/cnd/entropy.png>
+Package pdftex.def Info: ../diagrams/cnd/entropy.png  used on input line 554.
+(pdftex.def)             Requested size: 247.21295pt x 197.83058pt.
 
 [30
 
- <../diagrams/symmetry/basic.png>] [31
+ <../diagrams/cnd/entropy.png>]
+<../diagrams/symmetry/basic.png, id=912, 1330.9725pt x 993.7125pt>
+File: ../diagrams/symmetry/basic.png Graphic file (type png)
+<use ../diagrams/symmetry/basic.png>
+Package pdftex.def Info: ../diagrams/symmetry/basic.png  used on input line 568
+.
+(pdftex.def)             Requested size: 199.63725pt x 149.05043pt.
+ [31
+
+ <../diagrams/symmetry/basic.png>]
+[32
 
 ]
-<../images/me3.jpg, id=944, 2168.1pt x 2890.8pt>
-File: ../images/me3.jpg Graphic file (type jpg)
-<use ../images/me3.jpg>
-Package pdftex.def Info: ../images/me3.jpg  used on input line 598.
-(pdftex.def)             Requested size: 173.45154pt x 231.26872pt.
+<../images/me.jpg, id=972, 2162.0775pt x 2471.2325pt>
+File: ../images/me.jpg Graphic file (type jpg)
+<use ../images/me.jpg>
+Package pdftex.def Info: ../images/me.jpg  used on input line 607.
+(pdftex.def)             Requested size: 172.96973pt x 197.70264pt.
 
-Overfull \hbox (19.80661pt too wide) in paragraph at lines 598--598
+Overfull \hbox (19.3248pt too wide) in paragraph at lines 607--607
  [][] 
  []
 
-[32
+[33
 
- <../images/me3.jpg>]
+ <../images/me.jpg>]
 \tf@nav=\write6
 \openout6 = `5_rl_problems.nav'.
 
@@ -1263,10 +1271,10 @@ Package rerunfilecheck Info: File `5_rl_problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21898 strings out of 479719
- 433182 string characters out of 5880574
- 675045 words of memory out of 5000000
- 39338 multiletter control sequences out of 15000+600000
+ 21911 strings out of 479719
+ 433414 string characters out of 5880574
+ 676045 words of memory out of 5000000
+ 39347 multiletter control sequences out of 15000+600000
  484410 words of font info for 84 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  99i,18n,104p,434b,906s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1284,10 +1292,10 @@ fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2022basic/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022basic/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022basic/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on 5_rl_problems.pdf (32 pages, 12899451 bytes).
+Output written on 5_rl_problems.pdf (33 pages, 13600158 bytes).
 PDF statistics:
- 1043 PDF objects out of 1200 (max. 8388607)
- 899 compressed objects within 9 object streams
- 65 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1073 PDF objects out of 1200 (max. 8388607)
+ 925 compressed objects within 10 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 248 words of extra memory for PDF output out of 10000 (max. 10000000)
 
