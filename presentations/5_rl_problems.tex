@@ -544,14 +544,87 @@
 \end{frame}
 
 
+
+\begin{frame}
+  
+  \frametitle{vicreg self supervised loss}
+
+  \begin{itemize}
+    \item variance   : maximize batch-wise variance
+    \item invariance : closer features for similar, distant for different states
+    \item covariance : minimize features covariance
+  \end{itemize}
+ 
+  \begin{align*}
+    \mathcal{L} = &\alpha \max \left( 1 - \sum_{f}^{F} var_{0}(z_a) + var_{0}(z_b), 0 \right) &&  \text{variance} \\
+                  + &\beta  \sum_{n}^{N}  \begin{cases}
+                                            \sum_{f}^{F} (z_a - z_b)^2,& \text{if similar}\\
+                                            \max(1 - \sum_{f}^{F} (z_a - z_b)^2, 0), & \text{otherwise}
+                                          \end{cases} &&  \text{invariance} \\
+                  + &\sum_{f}^{F}(1 - \mathbb{I})\left( (z_a^Tz_a)^2 + (z_b^Tz_b)^2 \right) && \text{covariance}
+  \end{align*}  
+ 
+\end{frame}
+
+
+\begin{frame}
+  
+  \frametitle{variance}
+ 
+  \begin{align*}
+    \mathcal{L}_{variance} = \alpha \max \left( 1 - \sum_{f}^{F} var_{0}(z_a) + var_{0}(z_b), 0 \right)
+  \end{align*}  
+
+  \centering
+  \includegraphics[scale=0.2]{../diagrams/cnd/variance.png}
+
+\end{frame}
+
+
+\begin{frame}
+  
+  \frametitle{invariance}
+ 
+  \begin{align*}
+    \mathcal{L}_{invariance} = \beta  \sum_{n}^{N}  \begin{cases}
+                                            \sum_{f}^{F} (z_a - z_b)^2,& \text{if similar}\\
+                                            \max(1 - \sum_{f}^{F} (z_a - z_b)^2, 0), & \text{otherwise}
+                                          \end{cases} 
+  \end{align*}  
+
+  \centering
+  \includegraphics[scale=0.15]{../diagrams/cnd/invariance.png}
+
+
+\end{frame}
+
+
+\begin{frame}
+  
+  \frametitle{covariance}
+ 
+  \begin{align*}
+    \mathcal{L}_{covariance} = \gamma \sum_{f}^{F}(1 - \mathbb{I})\left( (z_a^Tz_a)^2 + (z_b^Tz_b)^2 \right)
+  \end{align*}  
+
+  \centering
+  \includegraphics[scale=0.2]{../diagrams/cnd/covariance.png}
+
+\end{frame}
+
+
 \begin{frame}
   
   \frametitle{raising entropy driven exploration }
 
   \centering
-  \includegraphics[scale=0.15]{../diagrams/cnd/entropy.png}
+  \includegraphics[scale=0.2]{../diagrams/cnd/entropy.png}
 
 \end{frame}
+
+
+
+
 
 \begin{frame}
   
