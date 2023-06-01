@@ -1,0 +1,10 @@
+# set latexfile to the name of the main file without the .tex
+latexfile = 6_rl_video
+
+
+all :
+	pdflatex $(latexfile).tex
+
+	convert -density 600  $(latexfile).pdf -quality 90 images/page.png
+clean:
+	rm  $(latexfile).pdf

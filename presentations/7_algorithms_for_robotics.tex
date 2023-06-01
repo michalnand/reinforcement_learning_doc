@@ -1,0 +1,209 @@
+\documentclass{beamer}
+\usetheme{Warsaw}
+
+
+\iftrue
+
+\setbeamercolor{normal text}{fg=white,bg=black!90}
+\setbeamercolor{structure}{fg=white}
+
+\setbeamercolor{alerted text}{fg=red!85!black}
+
+\setbeamercolor{item projected}{use=item,fg=black,bg=item.fg!35}
+
+\setbeamercolor*{palette primary}{use=structure,fg=structure.fg}
+\setbeamercolor*{palette secondary}{use=structure,fg=structure.fg!95!black}
+\setbeamercolor*{palette tertiary}{use=structure,fg=structure.fg!90!black}
+\setbeamercolor*{palette quaternary}{use=structure,fg=structure.fg!95!black,bg=black!80}
+
+\setbeamercolor*{framesubtitle}{fg=white}
+
+\setbeamercolor*{block title}{parent=structure,bg=black!60}
+\setbeamercolor*{block body}{fg=black,bg=black!10}
+\setbeamercolor*{block title alerted}{parent=alerted text,bg=black!15}
+\setbeamercolor*{block title example}{parent=example text,bg=black!15}
+
+\fi
+
+
+\begin{document}
+
+{
+    \usebackgroundtemplate
+    {
+        \vbox to \paperheight{\vfil\hbox to \paperwidth{\hfil
+
+        {\includegraphics[width=5.05in]{../images/aztec.jpg}}
+
+        \hfil}\vfil}
+    }
+
+    \begin{frame}
+     \centering
+     {
+        \begin{minipage}{10cm}
+           {\LARGE \color{white}{\bf algorithms for robotics}} \\
+           {\LARGE \color{white}{\bf Michal CHOVANEC, PhD.}} \\
+       \end{minipage}
+     }
+
+    \end{frame}
+}
+
+
+\begin{frame}
+  
+  \frametitle{overview}
+
+  \begin{itemize}
+    \item noise reduction             : digital filters, Kalman filter
+    \item control                     : PID, LQR, MPC
+    \item motor controll              : park, clark transformations, real time PID
+    \item planning, decision making   : image segmentation, reinforcement learning
+  \end{itemize}
+    
+\end{frame}
+
+
+\begin{frame}
+  
+  \frametitle{digital filters}
+
+  \begin{itemize}
+
+    \item low pass filter (1st order)
+      \begin{align*}
+        y_{n}&= (1 - a)y_{n-1} + a x_{n} \\
+        a &= \frac{\Delta t}{RC + \Delta t}
+      \end{align*}
+  
+
+    \item resonant filter (2nd order)
+      \begin{align*}
+        y_{n}&= a_{1}y_{n-1} + a_{2}y_{n-2} + b_{0}x_{n} + b_{1}x_{n-1} + b_{2}x_{n-2} 
+      \end{align*}
+
+  \end{itemize}
+
+  
+\end{frame}
+
+
+\begin{frame}
+  
+  \frametitle{digital filters - usage}
+
+    \centering{\includegraphics[scale=0.8]{../diagrams/filters/filters.png}}
+
+\end{frame}
+
+\begin{frame}
+  
+  \frametitle{digital filters - low pass vs Kalman}
+
+    \centering{\includegraphics[scale=0.25]{../images/kalman_constant.png}}
+    \centering{\includegraphics[scale=0.25]{../images/kalman_tracking.png}}
+
+\end{frame}
+
+
+\begin{frame}
+  
+  \frametitle{1D kalman is simple}    
+
+    \begin{columns}
+
+      \begin{column}{0.5\textwidth}
+        \centering{\includegraphics[scale=0.25]{../images/kalman_1d.png}}
+      \end{column}
+  
+      \begin{column}{0.5\textwidth}
+        \begin{itemize}
+          \item 1, calibrate sensor variance (pz, pdz)
+          \item 2, measure position z \\ and velocity v
+          \item 3, dynamics model $$z_{n-1} = z_{n} + v_{n}dt$$
+          \item 4, compute filter step
+        \end{itemize}
+      \end{column}
+  
+    \end{columns}
+
+\end{frame}
+
+
+
+\begin{frame}
+  
+  \frametitle{usage}    
+
+    \begin{columns}
+
+      \begin{column}{0.5\textwidth}
+        \centering{\includegraphics[scale=0.25]{../images/dsky.jpeg}}
+        \centering{\includegraphics[scale=0.09]{../images/hakuto.jpg}}
+      \end{column}
+  
+      \begin{column}{0.5\textwidth}
+        \begin{itemize}
+          \item sensors de-noising 
+          \item sensors fusion \\ (gyro + accelerometer), GPS
+          \item navigation, error checking
+          \item Apollo guidance computer (Apollo 8, 1968)
+          \item Hakuto lander crash !!! (2023, April 2023)
+        \end{itemize}
+      \end{column}
+  
+    \end{columns}
+
+\end{frame}
+
+
+
+\begin{frame}
+  
+  \frametitle{controll : PID vs LQR}    
+
+    \centering{\includegraphics[scale=0.6]{../diagrams/controll/control-lqr_pid.png}}
+
+\end{frame}
+
+
+\begin{frame}
+  
+  \frametitle{recommended sources}
+
+  \begin{itemize}
+    \item book : Maxim Lapan, 2020, Deep Reinforcement Learning Hands-On second edition
+    \item book : Enes Bilgin, 2020, Mastering Reinforcement Learning with Python
+    \item youtuber : Yannic Kilcher, \href{https://www.youtube.com/c/YannicKilcher/videos}{link}
+    \item youtuber : Two Minute Papers, \href{https://www.youtube.com/c/KárolyZsolnai/videos}{link}
+    \item web : Paper With Code, \href{https://paperswithcode.com/methods/category/policy-gradient-methods}{link}
+    \item web : Intellabs, \href{https://intellabs.github.io/coach/components/agents/index.html}{link}
+  \end{itemize}
+    
+\end{frame}
+
+
+\begin{frame}
+  
+  \frametitle{Q\&A}
+
+  \begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.08]{../images/me.jpg}}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item \url{https://github.com/michalnand/}
+        \item \url{michal.nand@gmail.com}
+      \end{itemize}
+    \end{column}
+
+  \end{columns}
+
+    
+\end{frame}
+
+\end{document}

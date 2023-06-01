@@ -1,0 +1,9 @@
+# set latexfile to the name of the main file without the .tex
+latexfile = 7_algorithms_for_robotics
+
+
+all :
+	pdflatex $(latexfile).tex
+
+clean:
+	rm  $(latexfile).pdf
