@@ -163,9 +163,127 @@
   
   \frametitle{controll : PID vs LQR}    
 
-    \centering{\includegraphics[scale=0.6]{../diagrams/controll/control-lqr_pid.png}}
+    \centering{\includegraphics[scale=0.5]{../diagrams/controll/control-lqr_pid.png}}
+
+    \begin{columns}
+
+      \begin{column}{0.5\textwidth}
+        \begin{itemize}
+          \item PID
+          \item single input, single output
+          \item simple systems (motor control, temperature ...)
+          \item empirical "tunning" 
+        \end{itemize}
+      \end{column}
+  
+      \begin{column}{0.5\textwidth}
+        \begin{itemize}
+          \item LQR
+          \item multiple inputs, multiple outputs
+          \item complex dynamics (drones, F16, rockets, walking robot, segway)
+          \item exact solution
+          \item robust
+        \end{itemize}
+      \end{column}
+  
+    \end{columns}
+
 
 \end{frame}
+
+
+
+\begin{frame}
+  
+  \frametitle{LQR for servo}    
+
+    \centering{\includegraphics[scale=0.45]{../diagrams/controll/motor_control-lqr.png}}
+
+\end{frame}
+
+
+
+
+
+\begin{frame}
+  
+  \frametitle{three phase motor controll}    
+
+  \begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.06]{../images/side_board.jpg}}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item MCU     : stm32f051 \\ 
+          - ARM cortex m0, 48MHz
+        \item encoder : AS5600, 12bit
+        \item driver  : MP6540H, 5A, 50V
+      \end{itemize}
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+
+
+\begin{frame}
+  
+  \frametitle{field oriented controll}    
+
+  \centering{\includegraphics[scale=0.4]{../diagrams/controll/motor_control-inner_loop.png}}
+
+
+  \begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      trapezoidal control
+      \begin{itemize}
+        \item highest maximum speed
+        \item lowest switching losses
+        \item easiest implementation
+      \end{itemize}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      field oriented controll
+      \begin{itemize}
+        \item highest power output
+        \item lowest noise
+        \item best torque ripple
+        \item maximum motor efficiency
+        \item coding experience needed
+      \end{itemize}
+    \end{column}
+
+  \end{columns}
+  
+\end{frame}
+
+
+\begin{frame}
+  
+  \frametitle{field oriented controll}    
+
+  
+  \begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.3]{../diagrams/controll/transformations.png}}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.03]{../images/currents.jpg}}
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+
 
 
 \begin{frame}
