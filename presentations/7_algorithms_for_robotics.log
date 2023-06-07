@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  1 JUN 2023 20:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  7 JUN 2023 17:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -920,7 +920,7 @@ Overfull \hbox (3.20169pt too wide) has occurred while \output is active
 ] [3
 
 ]
-<../diagrams/filters/filters.png, id=114, 375.0813pt x 233.4321pt>
+<../diagrams/filters/filters.png, id=113, 375.0813pt x 233.4321pt>
 File: ../diagrams/filters/filters.png Graphic file (type png)
 <use ../diagrams/filters/filters.png>
 Package pdftex.def Info: ../diagrams/filters/filters.png  used on input line 98
@@ -929,13 +929,13 @@ Package pdftex.def Info: ../diagrams/filters/filters.png  used on input line 98
  [4
 
  <../diagrams/filters/filters.png>]
-<../images/kalman_constant.png, id=144, 716.1957pt x 493.6041pt>
+<../images/kalman_constant.png, id=143, 716.1957pt x 493.6041pt>
 File: ../images/kalman_constant.png Graphic file (type png)
 <use ../images/kalman_constant.png>
 Package pdftex.def Info: ../images/kalman_constant.png  used on input line 107.
 
 (pdftex.def)             Requested size: 179.04848pt x 123.40071pt.
-<../images/kalman_tracking.png, id=145, 716.9184pt x 395.3169pt>
+<../images/kalman_tracking.png, id=144, 716.9184pt x 395.3169pt>
 File: ../images/kalman_tracking.png Graphic file (type png)
 <use ../images/kalman_tracking.png>
 Package pdftex.def Info: ../images/kalman_tracking.png  used on input line 107.
@@ -944,7 +944,7 @@ Package pdftex.def Info: ../images/kalman_tracking.png  used on input line 107.
  [5
 
  <../images/kalman_constant.png> <../images/kalman_tracking.png>]
-<../images/kalman_1d.png, id=174, 462.72874pt x 606.265pt>
+<../images/kalman_1d.png, id=173, 462.72874pt x 606.265pt>
 File: ../images/kalman_1d.png Graphic file (type png)
 <use ../images/kalman_1d.png>
 Package pdftex.def Info: ../images/kalman_1d.png  used on input line 131.
@@ -952,12 +952,12 @@ Package pdftex.def Info: ../images/kalman_1d.png  used on input line 131.
  [6
 
  <../images/kalman_1d.png>]
-<../images/dsky.jpeg, id=202, 376.40625pt x 364.36125pt>
+<../images/dsky.jpeg, id=201, 376.40625pt x 364.36125pt>
 File: ../images/dsky.jpeg Graphic file (type jpg)
 <use ../images/dsky.jpeg>
 Package pdftex.def Info: ../images/dsky.jpeg  used on input line 158.
 (pdftex.def)             Requested size: 94.10132pt x 91.09009pt.
-<../images/hakuto.jpg, id=203, 1284.8pt x 722.7pt>
+<../images/hakuto.jpg, id=202, 1284.8pt x 722.7pt>
 File: ../images/hakuto.jpg Graphic file (type jpg)
 <use ../images/hakuto.jpg>
 Package pdftex.def Info: ../images/hakuto.jpg  used on input line 158.
@@ -965,7 +965,7 @@ Package pdftex.def Info: ../images/hakuto.jpg  used on input line 158.
  [7
 
  <../images/dsky.jpeg> <../images/hakuto.jpg>]
-<../diagrams/controll/control-lqr_pid.png, id=231, 419.166pt x 224.037pt>
+<../diagrams/controll/control-lqr_pid.png, id=230, 419.166pt x 224.037pt>
 File: ../diagrams/controll/control-lqr_pid.png Graphic file (type png)
 <use ../diagrams/controll/control-lqr_pid.png>
 Package pdftex.def Info: ../diagrams/controll/control-lqr_pid.png  used on inpu
@@ -974,72 +974,242 @@ t line 192.
  [8
 
  <../diagrams/controll/control-lqr_pid.png>]
-<../diagrams/controll/motor_control-lqr.png, id=260, 688.0104pt x 281.853pt>
+<../diagrams/controll/control-servo.png, id=259, 431.4519pt x 286.9119pt>
+File: ../diagrams/controll/control-servo.png Graphic file (type png)
+<use ../diagrams/controll/control-servo.png>
+Package pdftex.def Info: ../diagrams/controll/control-servo.png  used on input 
+line 201.
+(pdftex.def)             Requested size: 215.72542pt x 143.45558pt.
+ [9
+
+ <../diagrams/controll/control-servo.png>]
+<../diagrams/controll/control-lqri_synth.png, id=287, 489.9906pt x 364.2408pt>
+File: ../diagrams/controll/control-lqri_synth.png Graphic file (type png)
+<use ../diagrams/controll/control-lqri_synth.png>
+Package pdftex.def Info: ../diagrams/controll/control-lqri_synth.png  used on i
+nput line 209.
+(pdftex.def)             Requested size: 220.49373pt x 163.90685pt.
+ [10
+
+ <../diagrams/controll/control-lqri_synth.png>]
+<../diagrams/controll/motor_control-lqr.png, id=315, 688.0104pt x 281.853pt>
 File: ../diagrams/controll/motor_control-lqr.png Graphic file (type png)
 <use ../diagrams/controll/motor_control-lqr.png>
 Package pdftex.def Info: ../diagrams/controll/motor_control-lqr.png  used on in
-put line 202.
+put line 217.
 (pdftex.def)             Requested size: 309.60182pt x 126.83267pt.
 
-Overfull \hbox (2.31195pt too wide) in paragraph at lines 202--202
+Overfull \hbox (2.31195pt too wide) in paragraph at lines 217--217
  [][] 
  []
 
-[9
+[11
 
  <../diagrams/controll/motor_control-lqr.png>]
-<../images/side_board.jpg, id=288, 2463.2025pt x 2190.1825pt>
+<../images/side_board.jpg, id=343, 2463.2025pt x 2190.1825pt>
 File: ../images/side_board.jpg Graphic file (type jpg)
 <use ../images/side_board.jpg>
-Package pdftex.def Info: ../images/side_board.jpg  used on input line 229.
+Package pdftex.def Info: ../images/side_board.jpg  used on input line 244.
 (pdftex.def)             Requested size: 147.78577pt x 131.40527pt.
- [10
+ [12
 
  <../images/side_board.jpg>]
-<../diagrams/controll/motor_control-inner_loop.png, id=315, 724.1454pt x 152.48
+<../diagrams/controll/motor_control-inner_loop.png, id=371, 724.1454pt x 152.48
 97pt>
 File: ../diagrams/controll/motor_control-inner_loop.png Graphic file (type png)
 
 <use ../diagrams/controll/motor_control-inner_loop.png>
 Package pdftex.def Info: ../diagrams/controll/motor_control-inner_loop.png  use
-d on input line 264.
+d on input line 279.
 (pdftex.def)             Requested size: 289.65303pt x 60.9948pt.
- [11
+ [13
 
  <../diagrams/controll/motor_control-inner_loop.png>]
-<../diagrams/controll/transformations.png, id=343, 578.16pt x 578.16pt>
+<../diagrams/controll/transformations.png, id=400, 578.16pt x 578.16pt>
 File: ../diagrams/controll/transformations.png Graphic file (type png)
 <use ../diagrams/controll/transformations.png>
 Package pdftex.def Info: ../diagrams/controll/transformations.png  used on inpu
-t line 284.
+t line 299.
 (pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
 
-Overfull \hbox (19.8044pt too wide) in paragraph at lines 284--284
+Overfull \hbox (19.8044pt too wide) in paragraph at lines 299--299
  [][] 
  []
 
-<../images/currents.jpg, id=344, 2613.765pt x 4641.34pt>
+<../images/currents.jpg, id=401, 2613.765pt x 4641.34pt>
 File: ../images/currents.jpg Graphic file (type jpg)
 <use ../images/currents.jpg>
-Package pdftex.def Info: ../images/currents.jpg  used on input line 284.
+Package pdftex.def Info: ../images/currents.jpg  used on input line 299.
 (pdftex.def)             Requested size: 78.40956pt x 139.23419pt.
-[12
+[14
 
  <../diagrams/controll/transformations.png> <../images/currents.jpg>]
-[13
+<../images/segmentation.jpg, id=429, 678.8562pt x 786.2976pt>
+File: ../images/segmentation.jpg Graphic file (type jpg)
+<use ../images/segmentation.jpg>
+Package pdftex.def Info: ../images/segmentation.jpg  used on input line 324.
+(pdftex.def)             Requested size: 169.71364pt x 196.57391pt.
 
-]
-<../images/me.jpg, id=403, 2162.0775pt x 2471.2325pt>
-File: ../images/me.jpg Graphic file (type jpg)
-<use ../images/me.jpg>
-Package pdftex.def Info: ../images/me.jpg  used on input line 325.
-(pdftex.def)             Requested size: 172.96973pt x 197.70264pt.
-
-Overfull \hbox (19.3248pt too wide) in paragraph at lines 325--325
+Overfull \hbox (16.06871pt too wide) in paragraph at lines 324--324
  [][] 
  []
 
-[14
+[15
+
+ <../images/segmentation.jpg>]
+<../diagrams/models/models-simple_conv.png, id=456, 635.976pt x 84.5559pt>
+File: ../diagrams/models/models-simple_conv.png Graphic file (type png)
+<use ../diagrams/models/models-simple_conv.png>
+Package pdftex.def Info: ../diagrams/models/models-simple_conv.png  used on inp
+ut line 339.
+(pdftex.def)             Requested size: 317.98721pt x 42.27783pt.
+
+Overfull \hbox (10.69734pt too wide) in paragraph at lines 339--339
+ [][] 
+ []
+
+[16
+
+ <../diagrams/models/models-simple_conv.png>]
+<../diagrams/models/models-resnet.png, id=485, 433.62pt x 217.5327pt>
+File: ../diagrams/models/models-resnet.png Graphic file (type png)
+<use ../diagrams/models/models-resnet.png>
+Package pdftex.def Info: ../diagrams/models/models-resnet.png  used on input li
+ne 353.
+(pdftex.def)             Requested size: 216.80946pt x 108.76607pt.
+ [17
+
+ <../diagrams/models/models-resnet.png>]
+<../diagrams/models/models-segmentation.png, id=513, 889.6437pt x 167.6664pt>
+File: ../diagrams/models/models-segmentation.png Graphic file (type png)
+<use ../diagrams/models/models-segmentation.png>
+Package pdftex.def Info: ../diagrams/models/models-segmentation.png  used on in
+put line 366.
+(pdftex.def)             Requested size: 311.37996pt x 58.68411pt.
+
+Overfull \hbox (4.09009pt too wide) in paragraph at lines 366--366
+ [][] 
+ []
+
+[18
+
+ <../diagrams/models/models-segmentation.png>]
+<../diagrams/basic/reinforcementlearning.png, id=541, 1015.795pt x 905.3825pt>
+File: ../diagrams/basic/reinforcementlearning.png Graphic file (type png)
+<use ../diagrams/basic/reinforcementlearning.png>
+Package pdftex.def Info: ../diagrams/basic/reinforcementlearning.png  used on i
+nput line 391.
+(pdftex.def)             Requested size: 152.36267pt x 135.80151pt.
+ [19
+
+ <../diagrams/basic/reinforcementlearning.png>]
+<../images/breakout.png, id=570, 321.2pt x 394.47375pt>
+File: ../images/breakout.png Graphic file (type png)
+<use ../images/breakout.png>
+Package pdftex.def Info: ../images/breakout.png  used on input line 413.
+(pdftex.def)             Requested size: 112.42168pt x 138.06787pt.
+<../images/pacman.png, id=571, 330.23375pt x 345.29pt>
+File: ../images/pacman.png Graphic file (type png)
+<use ../images/pacman.png>
+Package pdftex.def Info: ../images/pacman.png  used on input line 413.
+(pdftex.def)             Requested size: 99.07088pt x 103.58778pt.
+ [20
+
+ <../images/breakout.png> <../images/pacman.png>]
+<../images/go.jpg, id=603, 4013.99625pt x 2666.96375pt>
+File: ../images/go.jpg Graphic file (type jpg)
+<use ../images/go.jpg>
+Package pdftex.def Info: ../images/go.jpg  used on input line 435.
+(pdftex.def)             Requested size: 120.41469pt x 80.00545pt.
+<../images/starcraft.png, id=604, 1445.4pt x 812.03375pt>
+File: ../images/starcraft.png Graphic file (type png)
+<use ../images/starcraft.png>
+Package pdftex.def Info: ../images/starcraft.png  used on input line 435.
+(pdftex.def)             Requested size: 144.54846pt x 81.20813pt.
+
+[21
+
+ <../images/go.jpg> <../images/starcraft.png>]
+<../images/ant.png, id=633, 602.25pt x 448.67625pt>
+File: ../images/ant.png Graphic file (type png)
+<use ../images/ant.png>
+Package pdftex.def Info: ../images/ant.png  used on input line 454.
+(pdftex.def)             Requested size: 120.44786pt x 89.73366pt.
+<../images/sac_car.jpg, id=634, 1284.8pt x 722.7pt>
+File: ../images/sac_car.jpg Graphic file (type jpg)
+<use ../images/sac_car.jpg>
+Package pdftex.def Info: ../images/sac_car.jpg  used on input line 454.
+(pdftex.def)             Requested size: 128.48752pt x 72.27423pt.
+<../images/rex_arm.png, id=635, 601.24625pt x 706.64pt>
+File: ../images/rex_arm.png Graphic file (type png)
+<use ../images/rex_arm.png>
+Package pdftex.def Info: ../images/rex_arm.png  used on input line 454.
+(pdftex.def)             Requested size: 90.18304pt x 105.99142pt.
+<../images/sac_minitaur.jpg, id=636, 1284.8pt x 722.7pt>
+File: ../images/sac_minitaur.jpg Graphic file (type jpg)
+<use ../images/sac_minitaur.jpg>
+Package pdftex.def Info: ../images/sac_minitaur.jpg  used on input line 454.
+(pdftex.def)             Requested size: 128.48752pt x 72.27423pt.
+ [22
+
+ <../images/ant.png> <../images/sac_car.jpg> <../images/rex_arm.png> <../images
+/sac_minitaur.jpg>]
+<../images/robot_mount.jpg, id=665, 786.2976pt x 589.7232pt>
+File: ../images/robot_mount.jpg Graphic file (type jpg)
+<use ../images/robot_mount.jpg>
+Package pdftex.def Info: ../images/robot_mount.jpg  used on input line 470.
+(pdftex.def)             Requested size: 157.25673pt x 117.94255pt.
+
+Overfull \hbox (3.6118pt too wide) in paragraph at lines 470--470
+ [][] 
+ []
+
+<../images/medals.jpg, id=666, 4015.0pt x 3011.25pt>
+File: ../images/medals.jpg Graphic file (type jpg)
+<use ../images/medals.jpg>
+Package pdftex.def Info: ../images/medals.jpg  used on input line 470.
+(pdftex.def)             Requested size: 140.53935pt x 105.40451pt.
+[23
+
+ <../images/robot_mount.jpg> <../images/medals.jpg>] [24
+
+]
+<../images/montezuma_map.png, id=721, 1004.75375pt x 515.9275pt>
+File: ../images/montezuma_map.png Graphic file (type png)
+<use ../images/montezuma_map.png>
+Package pdftex.def Info: ../images/montezuma_map.png  used on input line 496.
+(pdftex.def)             Requested size: 301.42845pt x 154.77943pt.
+ [25
+
+ <../images/montezuma_map.png>]
+Overfull \hbox (6.94975pt too wide) in paragraph at lines 524--524
+ [] 
+ []
+
+[26
+
+]
+<../images/cnd.png, id=778, 655.44875pt x 215.80624pt>
+File: ../images/cnd.png Graphic file (type png)
+<use ../images/cnd.png>
+Package pdftex.def Info: ../images/cnd.png  used on input line 536.
+(pdftex.def)             Requested size: 262.17485pt x 86.32095pt.
+ [27
+
+ <../images/cnd.png>] [28
+
+]
+<../images/me.jpg, id=836, 2162.0775pt x 2471.2325pt>
+File: ../images/me.jpg Graphic file (type jpg)
+<use ../images/me.jpg>
+Package pdftex.def Info: ../images/me.jpg  used on input line 578.
+(pdftex.def)             Requested size: 172.96973pt x 197.70264pt.
+
+Overfull \hbox (19.3248pt too wide) in paragraph at lines 578--578
+ [][] 
+ []
+
+[29
 
  <../images/me.jpg>]
 \tf@nav=\write6
@@ -1057,27 +1227,28 @@ ed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21605 strings out of 479719
- 426756 string characters out of 5880574
- 671105 words of memory out of 5000000
- 39111 multiletter control sequences out of 15000+600000
- 476645 words of font info for 55 fonts, out of 8000000 for 9000
+ 21847 strings out of 479719
+ 432202 string characters out of 5880574
+ 675105 words of memory out of 5000000
+ 39295 multiletter control sequences out of 15000+600000
+ 480438 words of font info for 69 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 99i,15n,104p,446b,650s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,18n,104p,446b,790s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss1
 0.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mss12.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmss8.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmssbx10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmssi10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022basic/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on 7_algorithms_for_robotics.pdf (14 pages, 4988973 bytes).
+ts/cm/cmss9.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmssbx10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022basic/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022basic/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on 7_algorithms_for_robotics.pdf (29 pages, 16648630 bytes).
 PDF statistics:
- 480 PDF objects out of 1000 (max. 8388607)
- 407 compressed objects within 5 object streams
- 29 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 923 PDF objects out of 1000 (max. 8388607)
+ 800 compressed objects within 8 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
 

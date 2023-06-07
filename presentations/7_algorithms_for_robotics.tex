@@ -53,7 +53,7 @@
 
 \begin{frame}
   
-  \frametitle{overview}
+  \frametitle{\bf overview}
 
   \begin{itemize}
     \item noise reduction             : digital filters, Kalman filter
@@ -67,7 +67,7 @@
 
 \begin{frame}
   
-  \frametitle{digital filters}
+  \frametitle{\bf digital filters}
 
   \begin{itemize}
 
@@ -91,7 +91,7 @@
 
 \begin{frame}
   
-  \frametitle{digital filters - usage}
+  \frametitle{\bf digital filters - usage}
 
     \centering{\includegraphics[scale=0.8]{../diagrams/filters/filters.png}}
 
@@ -99,7 +99,7 @@
 
 \begin{frame}
   
-  \frametitle{digital filters - low pass vs Kalman}
+  \frametitle{\bf digital filters - low pass vs Kalman}
 
     \centering{\includegraphics[scale=0.25]{../images/kalman_constant.png}}
     \centering{\includegraphics[scale=0.25]{../images/kalman_tracking.png}}
@@ -109,7 +109,7 @@
 
 \begin{frame}
   
-  \frametitle{1D kalman is simple}    
+  \frametitle{\bf 1D kalman is simple}    
 
     \begin{columns}
 
@@ -134,7 +134,7 @@
 
 \begin{frame}
   
-  \frametitle{usage}    
+  \frametitle{\bf usage}    
 
     \begin{columns}
 
@@ -161,7 +161,7 @@
 
 \begin{frame}
   
-  \frametitle{controll : PID vs LQR}    
+  \frametitle{\bf controll : PID vs LQR}    
 
     \centering{\includegraphics[scale=0.5]{../diagrams/controll/control-lqr_pid.png}}
 
@@ -192,10 +192,25 @@
 \end{frame}
 
 
+\begin{frame}
+  
+  \frametitle{\bf servo state space model}    
+
+    \centering{\includegraphics[scale=0.5]{../diagrams/controll/control-servo.png}}
+
+\end{frame}
 
 \begin{frame}
   
-  \frametitle{LQR for servo}    
+  \frametitle{\bf controller synthesis}    
+  \centering{\includegraphics[scale=0.45]{../diagrams/controll/control-lqri_synth.png}}
+
+
+\end{frame}
+
+\begin{frame}
+  
+  \frametitle{\bf LQR for servo}    
 
     \centering{\includegraphics[scale=0.45]{../diagrams/controll/motor_control-lqr.png}}
 
@@ -207,7 +222,7 @@
 
 \begin{frame}
   
-  \frametitle{three phase motor controll}    
+  \frametitle{\bf three phase motor controll}    
 
   \begin{columns}
 
@@ -232,7 +247,7 @@
 
 \begin{frame}
   
-  \frametitle{field oriented controll}    
+  \frametitle{\bf field oriented controll}    
 
   \centering{\includegraphics[scale=0.4]{../diagrams/controll/motor_control-inner_loop.png}}
 
@@ -266,7 +281,7 @@
 
 \begin{frame}
   
-  \frametitle{field oriented controll}    
+  \frametitle{\bf field oriented controll}    
 
   
   \begin{columns}
@@ -288,7 +303,242 @@
 
 \begin{frame}
   
-  \frametitle{recommended sources}
+  \frametitle{\bf image segmentation}    
+  
+    \begin{columns}
+
+      \begin{column}{0.5\textwidth}
+        \centering{\includegraphics[scale=0.25]{../images/segmentation.jpg}}
+      \end{column}
+
+      \begin{column}{0.5\textwidth}
+        \begin{itemize}
+          \item deep learning
+          \item convolutional neural networks
+          \item resnet18, resnet50, u-net, mask2former ...
+        \end{itemize}
+      \end{column}
+
+    \end{columns}
+
+\end{frame}
+
+
+\begin{frame}
+  
+  \frametitle{\bf convolutional neural network}    
+
+    \centering{\includegraphics[scale=0.5]{../diagrams/models/models-simple_conv.png}}
+  
+    \begin{itemize}
+      \item use 3x3 kernels
+      \item strides instead of poolings
+      \item ReLU activation
+      \item Adam optimizer
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+  
+  \frametitle{\bf resnet}    
+
+    \centering{\includegraphics[scale=0.5]{../diagrams/models/models-resnet.png}}
+  
+    \begin{itemize}
+      \item skip connections
+      \item resnet18, 50, 110
+      \item AlphaGO, AlphaZero
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+  
+  \frametitle{\bf segmentation}    
+
+    \centering{\includegraphics[scale=0.35]{../diagrams/models/models-segmentation.png}}
+  
+    \begin{itemize}
+      \item multiple sizes views
+      \item 10FPS on NVIDIA jetson nano
+    \end{itemize}
+\end{frame}
+
+
+
+
+
+\begin{frame}{\bf reinforcement learning}
+
+  \begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.15]{../diagrams/basic/reinforcementlearning.png}}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item obtain state
+        \item select action
+        \item exectute action
+        \item learn from experiences
+      \end{itemize}
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+
+
+
+
+\begin{frame}{\bf deep reinforcement learning - playing Atari}
+
+  \begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.35]{../images/breakout.png}}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.3]{../images/pacman.png}}
+    \end{column}
+
+  \end{columns}
+
+  2013, Mnih (DeepMind) : Playing Atari with Deep Reinforcement Learning, 
+  \url{https://arxiv.org/pdf/1312.5602.pdf}
+\end{frame}
+
+
+\begin{frame}{\bf reinforcement learning - path to superhuman score}
+
+  \begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.03]{../images/go.jpg}}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.1]{../images/starcraft.png}}
+    \end{column}
+
+  \end{columns}
+
+  \begin{itemize} 
+    \item 2016 AlphaGo, \url{https://www.nature.com/articles/nature16961}
+    \item 2020 MuZero, \url{https://arxiv.org/pdf/1911.08265.pdf}
+    \item AlphaZero, AlphaStar ...
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{\bf reinforcement learning - robotics}
+
+  \begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.2]{../images/ant.png}}
+      \centering{\includegraphics[scale=0.1]{../images/sac_car.jpg}}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.15]{../images/rex_arm.png}}
+      \centering{\includegraphics[scale=0.1]{../images/sac_minitaur.jpg}}
+    \end{column}
+
+
+  \end{columns}
+
+\end{frame}
+
+
+\begin{frame}{\bf motoko uprising - line follower}  
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.2]{../images/robot_mount.jpg}}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.035]{../images/medals.jpg}}
+    \end{column}
+  \end{columns}
+
+  video : \url{https://www.youtube.com/watch?v=xUAJ1LA6Xwc}
+
+\end{frame}
+
+
+
+
+\begin{frame}{\bf unsolved problems}
+
+  \begin{itemize}
+    \item RL sample efficiency
+    \item sparse rewards
+    \item generalisation
+  \end{itemize}
+  
+  \end{frame}
+  
+  \begin{frame}{\bf Montezuma's revenge}
+  
+    \centering{\includegraphics[scale=0.3]{../images/montezuma_map.png}}
+  
+    \begin{itemize}
+      \item extreme sparse rewards
+      \item huge state space
+      \item need to return hundrets of steps back
+      \item still not solved - without game state save/load
+    \end{itemize}
+  
+  \end{frame}
+  
+  
+  \begin{frame}{\bf state of the art score}
+  
+  \begin{columns}
+      \column{\dimexpr\paperwidth-10pt}
+  
+        source : \url{https://paperswithcode.com/sota/atari-games-on-atari-2600-montezumas-revenge}
+  
+  
+        \begin{table}[]
+        \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{year} & \textbf{name}                                       & \textbf{score} \\ \hline
+        2015          & Deep Reinforcement Learning with Double Q-learning  & 0              \\ \hline
+        2017          & Curiosity-driven Exploration by Self-supervised Prediction \footnote[1]{https://arxiv.org/abs/1705.05363} & 0       \\ \hline 
+        2021          & MuZero                                              & 2500           \\ \hline
+        2018          & Count-Based Exploration with Neural Density Models \footnote[2]{https://arxiv.org/abs/1703.01310}  & 3705           \\ \hline
+        \textbf{2019} & \textbf{Exploration by Random Network Distillation} \footnote[3]{https://arxiv.org/abs/1810.12894}& \textbf{8152}  \\ \hline
+        2021          & GoExplore$^*$ \footnote[4]{https://arxiv.org/abs/2004.12919}                         & 43 000         \\ \hline
+        \end{tabular}
+        \end{table}
+  
+        {\bf * requires environment state saving/loading}
+  
+  \end{columns}
+  
+  \end{frame}
+  
+
+\begin{frame}{\bf exploration by self supervised exploitation}
+
+  \centering{\includegraphics[scale=0.4]{../images/cnd.png}}
+
+  \begin{itemize}
+    \item self supervised model regularisation
+    \item reached state of the art score (25 000 +) on Montezuma's Revenge
+    \item first algorithm solving procgen hard exploration seeds
+  \end{itemize} 
+\end{frame}
+  
+
+\begin{frame}
+  
+  \frametitle{\bf recommended sources}
 
   \begin{itemize}
     \item book : Maxim Lapan, 2020, Deep Reinforcement Learning Hands-On second edition
@@ -298,8 +548,11 @@
     \item web : Paper With Code, \href{https://paperswithcode.com/methods/category/policy-gradient-methods}{link}
     \item web : Intellabs, \href{https://intellabs.github.io/coach/components/agents/index.html}{link}
   \end{itemize}
+
+ 
     
 \end{frame}
+
 
 
 \begin{frame}
