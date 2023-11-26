@@ -126,6 +126,30 @@
 
 \begin{frame}
   \frametitle{reinforcement learning - success story}
+
+
+  \begin{align*}
+    \mathcal{L} &= \int_{0}^{\infty} x^TQx\,dt + u^TRu\,dt \\
+    s.t.\, dx &= Ax + Bu
+  \end{align*}
+
+  solution :
+  \begin{itemize}
+    \item quadratic programming for constrained x, u \\ - model predictive contol (MPC)
+    \item algebraic Riccati equation
+  \end{itemize}
+
+  \begin{align*}
+    0 &= A^TP + PA - PBR^{-1}B^TP + Q \\
+    K &= R^{-1} B^T P\\
+    u &= -Kx \\
+  \end{align*}
+    
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{reinforcement learning - success story}
   Stockfish NNUE Chess engine \\
   \centering
   \includegraphics[scale=0.18]{../images/nnue.png}
