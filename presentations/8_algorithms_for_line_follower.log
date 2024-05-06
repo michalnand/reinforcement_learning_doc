@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  6 MAY 2024 07:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  6 MAY 2024 08:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1345,7 +1345,7 @@ used on input line 785.
  <../diagrams/identification/identification-arange.png>] [45
 
 ]
-Overfull \hbox (25.33467pt too wide) detected at line 828
+Overfull \hbox (27.26059pt too wide) detected at line 828
 []
  []
 
@@ -1430,7 +1430,7 @@ type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2024basic/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024basic/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024basic/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on 8_algorithms_for_line_follower.pdf (53 pages, 46105570 bytes)
+Output written on 8_algorithms_for_line_follower.pdf (53 pages, 46105576 bytes)
 .
 PDF statistics:
  1631 PDF objects out of 1728 (max. 8388607)

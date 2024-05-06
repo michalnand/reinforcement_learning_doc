@@ -808,7 +808,7 @@
   loss (cost) function is quadratic, with weighting terms $Q$ and $R$,
 
   \begin{align*}
-    \mathcal{L} &=\sum_h^{H-1} (x_r^T(h) - x^T(h)) Q (x_r(h) - x(h)) + du^T(h) R _\Delta u(h) \\
+    \mathcal{L} &=\sum_{h=0}^{H-1} (x_r^T(h) - x^T(h)) Q (x_r(h) - x(h)) + _\Delta u^T(h) R _\Delta u(h) \\
     u(n) & = u(n-1) + _\Delta u(n) \\
     s.t. \quad x(n+1) &= Ax(n) + Bu(n) 
   \end{align*}  
