@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  5 MAY 2024 19:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  6 MAY 2024 07:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1152,185 +1152,236 @@ Overfull \vbox (35.87398pt too high) detected at line 366
 ] [22
 
 ]
-<../diagrams/robot_control/control-movement.png, id=667, 437.9562pt x 370.7451p
+<../diagrams/controll/control-pid.png, id=667, 310.761pt x 94.6737pt>
+File: ../diagrams/controll/control-pid.png Graphic file (type png)
+<use ../diagrams/controll/control-pid.png>
+Package pdftex.def Info: ../diagrams/controll/control-pid.png  used on input li
+ne 420.
+(pdftex.def)             Requested size: 248.60913pt x 75.73904pt.
+ [23
+
+ <../diagrams/controll/control-pid.png>] [24
+
+]
+<../diagrams/controll/control-lqr_disc.png, id=727, 321.6015pt x 105.5142pt>
+File: ../diagrams/controll/control-lqr_disc.png Graphic file (type png)
+<use ../diagrams/controll/control-lqr_disc.png>
+Package pdftex.def Info: ../diagrams/controll/control-lqr_disc.png  used on inp
+ut line 461.
+(pdftex.def)             Requested size: 257.28154pt x 84.41147pt.
+ [25
+
+ <../diagrams/controll/control-lqr_disc.png>]
+<../diagrams/controll/control-lqg_discrete.png, id=757, 564.4287pt x 201.6333pt
+>
+File: ../diagrams/controll/control-lqg_discrete.png Graphic file (type png)
+<use ../diagrams/controll/control-lqg_discrete.png>
+Package pdftex.def Info: ../diagrams/controll/control-lqg_discrete.png  used on
+ input line 470.
+(pdftex.def)             Requested size: 338.65982pt x 120.9809pt.
+
+Overfull \hbox (31.36995pt too wide) in paragraph at lines 470--470
+[]  
+ []
+
+[26
+
+ <../diagrams/controll/control-lqg_discrete.png>]
+<../diagrams/controll/control-mpc.png, id=786, 432.8973pt x 107.6823pt>
+File: ../diagrams/controll/control-mpc.png Graphic file (type png)
+<use ../diagrams/controll/control-mpc.png>
+Package pdftex.def Info: ../diagrams/controll/control-mpc.png  used on input li
+ne 485.
+(pdftex.def)             Requested size: 259.74037pt x 64.60986pt.
+ [27
+
+ <../diagrams/controll/control-mpc.png>]
+<../diagrams/robot_control/control-movement.png, id=815, 437.9562pt x 370.7451p
 t>
 File: ../diagrams/robot_control/control-movement.png Graphic file (type png)
 <use ../diagrams/robot_control/control-movement.png>
 Package pdftex.def Info: ../diagrams/robot_control/control-movement.png  used o
-n input line 409.
+n input line 495.
 (pdftex.def)             Requested size: 175.17937pt x 148.29541pt.
- [23
+ [28
 
  <../diagrams/robot_control/control-movement.png>]
-<../diagrams/robot_control/control-translation.png, id=696, 514.5624pt x 232.70
+<../diagrams/robot_control/control-translation.png, id=845, 514.5624pt x 232.70
 94pt>
 File: ../diagrams/robot_control/control-translation.png Graphic file (type png)
 
 <use ../diagrams/robot_control/control-translation.png>
 Package pdftex.def Info: ../diagrams/robot_control/control-translation.png  use
-d on input line 418.
+d on input line 504.
 (pdftex.def)             Requested size: 205.8213pt x 93.08209pt.
- [24
+
+[29
 
  <../diagrams/robot_control/control-translation.png>]
-<../diagrams/robot_control/control-rotation.png, id=726, 344.0052pt x 255.8358p
+<../diagrams/robot_control/control-rotation.png, id=874, 344.0052pt x 255.8358p
 t>
 File: ../diagrams/robot_control/control-rotation.png Graphic file (type png)
 <use ../diagrams/robot_control/control-rotation.png>
 Package pdftex.def Info: ../diagrams/robot_control/control-rotation.png  used o
-n input line 426.
+n input line 512.
 (pdftex.def)             Requested size: 137.59962pt x 102.3325pt.
+ [30
 
-[25
-
- <../diagrams/robot_control/control-rotation.png>] [26
+ <../diagrams/robot_control/control-rotation.png>] [31
 
 ]
-<../diagrams/robot_control/control-overview.png, id=784, 642.4803pt x 151.0443p
+<../diagrams/robot_control/control-overview.png, id=931, 642.4803pt x 151.0443p
 t>
 File: ../diagrams/robot_control/control-overview.png Graphic file (type png)
 <use ../diagrams/robot_control/control-overview.png>
 Package pdftex.def Info: ../diagrams/robot_control/control-overview.png  used o
-n input line 466.
+n input line 555.
 (pdftex.def)             Requested size: 256.98756pt x 60.41664pt.
- [27
+ [32
 
  <../diagrams/robot_control/control-overview.png>]
-<../images/motors/open_loop_response.png, id=814, 578.16pt x 289.08pt>
+<../images/motors/open_loop_response.png, id=961, 578.16pt x 289.08pt>
 File: ../images/motors/open_loop_response.png Graphic file (type png)
 <use ../images/motors/open_loop_response.png>
 Package pdftex.def Info: ../images/motors/open_loop_response.png  used on input
- line 481.
+ line 570.
 (pdftex.def)             Requested size: 144.53964pt x 72.26982pt.
-<../images/motors/closed_loop_response.png, id=815, 578.16pt x 433.62pt>
+<../images/motors/closed_loop_response.png, id=962, 578.16pt x 433.62pt>
 File: ../images/motors/closed_loop_response.png Graphic file (type png)
 <use ../images/motors/closed_loop_response.png>
 Package pdftex.def Info: ../images/motors/closed_loop_response.png  used on inp
-ut line 481.
+ut line 570.
 (pdftex.def)             Requested size: 144.53964pt x 108.40472pt.
- [28
+ [33
 
  <../images/motors/open_loop_response.png> <../images/motors/closed_loop_respon
 se.png>]
-<../diagrams/robot_control/control-servo.png, id=846, 479.8728pt x 279.6849pt>
+<../diagrams/robot_control/control-servo.png, id=992, 479.8728pt x 279.6849pt>
 File: ../diagrams/robot_control/control-servo.png Graphic file (type png)
 <use ../diagrams/robot_control/control-servo.png>
 Package pdftex.def Info: ../diagrams/robot_control/control-servo.png  used on i
-nput line 490.
+nput line 579.
 (pdftex.def)             Requested size: 239.9358pt x 139.8421pt.
- [29
+ [34
 
  <../diagrams/robot_control/control-servo.png>]
-<../diagrams/robot_control/control-lqr_pid.png, id=875, 418.4433pt x 223.3143pt
->
+<../diagrams/robot_control/control-lqr_pid.png, id=1021, 418.4433pt x 223.3143p
+t>
 File: ../diagrams/robot_control/control-lqr_pid.png Graphic file (type png)
 <use ../diagrams/robot_control/control-lqr_pid.png>
 Package pdftex.def Info: ../diagrams/robot_control/control-lqr_pid.png  used on
- input line 507.
+ input line 596.
 (pdftex.def)             Requested size: 209.22113pt x 111.65686pt.
- [30
+
+[35
 
  <../diagrams/robot_control/control-lqr_pid.png>]
-<../diagrams/robot_control/servo_control-lqr.png, id=904, 688.0104pt x 281.853p
-t>
+<../diagrams/robot_control/servo_control-lqr.png, id=1050, 688.0104pt x 281.853
+pt>
 File: ../diagrams/robot_control/servo_control-lqr.png Graphic file (type png)
 <use ../diagrams/robot_control/servo_control-lqr.png>
 Package pdftex.def Info: ../diagrams/robot_control/servo_control-lqr.png  used 
-on input line 522.
+on input line 611.
 (pdftex.def)             Requested size: 344.00436pt x 140.92615pt.
 
-Overfull \hbox (36.7145pt too wide) in paragraph at lines 522--522
+Overfull \hbox (36.7145pt too wide) in paragraph at lines 611--611
  [][] 
- []
-
-[31
-
- <../diagrams/robot_control/servo_control-lqr.png>]
-<../diagrams/identification/identification-system_dynamics.png, id=936, 240.659
-1pt x 58.5387pt>
-File: ../diagrams/identification/identification-system_dynamics.png Graphic fil
-e (type png)
-<use ../diagrams/identification/identification-system_dynamics.png>
-Package pdftex.def Info: ../diagrams/identification/identification-system_dynam
-ics.png  used on input line 542.
-(pdftex.def)             Requested size: 240.65851pt x 58.53854pt.
- [32
-
- <../diagrams/identification/identification-system_dynamics.png>]
-<../images/kalman_tracking.png, id=966, 716.9184pt x 395.3169pt>
-File: ../images/kalman_tracking.png Graphic file (type png)
-<use ../images/kalman_tracking.png>
-Package pdftex.def Info: ../images/kalman_tracking.png  used on input line 559.
-
-(pdftex.def)             Requested size: 215.07718pt x 118.59598pt.
- [33
-
- <../images/kalman_tracking.png>] [34
-
-] [35
-
-]
-Overfull \hbox (22.27196pt too wide) detected at line 652
-[]
  []
 
 [36
 
-] [37
+ <../diagrams/robot_control/servo_control-lqr.png>]
+<../diagrams/identification/identification-system_dynamics.png, id=1081, 240.65
+91pt x 58.5387pt>
+File: ../diagrams/identification/identification-system_dynamics.png Graphic fil
+e (type png)
+<use ../diagrams/identification/identification-system_dynamics.png>
+Package pdftex.def Info: ../diagrams/identification/identification-system_dynam
+ics.png  used on input line 631.
+(pdftex.def)             Requested size: 240.65851pt x 58.53854pt.
+ [37
 
-]
-<../diagrams/identification/identification-arange.png, id=1106, 393.1488pt x 23
-9.2137pt>
-File: ../diagrams/identification/identification-arange.png Graphic file (type p
-ng)
-<use ../diagrams/identification/identification-arange.png>
-Package pdftex.def Info: ../diagrams/identification/identification-arange.png  
-used on input line 688.
-(pdftex.def)             Requested size: 196.57391pt x 119.60655pt.
+ <../diagrams/identification/identification-system_dynamics.png>]
+<../images/kalman_tracking.png, id=1111, 716.9184pt x 395.3169pt>
+File: ../images/kalman_tracking.png Graphic file (type png)
+<use ../images/kalman_tracking.png>
+Package pdftex.def Info: ../images/kalman_tracking.png  used on input line 648.
+
+(pdftex.def)             Requested size: 215.07718pt x 118.59598pt.
  [38
 
- <../diagrams/identification/identification-arange.png>] [39
+ <../images/kalman_tracking.png>] [39
+
+] [40
 
 ]
-[40
-
-]
-Overfull \hbox (139.3207pt too wide) detected at line 751
+Overfull \hbox (22.27196pt too wide) detected at line 741
 []
  []
 
 [41
 
+] [42
+
 ]
-Overfull \hbox (20.91165pt too wide) detected at line 802
+<../diagrams/identification/identification-arange.png, id=1250, 393.1488pt x 23
+9.2137pt>
+File: ../diagrams/identification/identification-arange.png Graphic file (type p
+ng)
+<use ../diagrams/identification/identification-arange.png>
+Package pdftex.def Info: ../diagrams/identification/identification-arange.png  
+used on input line 777.
+(pdftex.def)             Requested size: 196.57391pt x 119.60655pt.
+ [43
+
+ <../diagrams/identification/identification-arange.png>] [44
+
+]
+Overfull \hbox (25.33467pt too wide) detected at line 820
 []
  []
 
-[42
+[45
 
 ]
-Overfull \hbox (21.92444pt too wide) detected at line 835
+Overfull \hbox (13.48018pt too wide) detected at line 840
 []
- []
-
-[43
-
-] [44
-
-] [45
-
-]
-<../images/me.jpg, id=1326, 2162.0775pt x 2471.2325pt>
-File: ../images/me.jpg Graphic file (type jpg)
-<use ../images/me.jpg>
-Package pdftex.def Info: ../images/me.jpg  used on input line 897.
-(pdftex.def)             Requested size: 172.96973pt x 197.70264pt.
-
-Overfull \hbox (19.3248pt too wide) in paragraph at lines 897--897
- [][] 
  []
 
 [46
+
+]
+Overfull \hbox (20.91165pt too wide) detected at line 891
+[]
+ []
+
+[47
+
+]
+Overfull \hbox (21.92444pt too wide) detected at line 924
+[]
+ []
+
+[48
+
+] [49
+
+] [50
+
+] [51
+
+]
+<../images/me.jpg, id=1498, 2162.0775pt x 2471.2325pt>
+File: ../images/me.jpg Graphic file (type jpg)
+<use ../images/me.jpg>
+Package pdftex.def Info: ../images/me.jpg  used on input line 1005.
+(pdftex.def)             Requested size: 172.96973pt x 197.70264pt.
+
+Overfull \hbox (19.3248pt too wide) in paragraph at lines 1005--1005
+ [][] 
+ []
+
+[52
 
  <../images/me.jpg>]
 \tf@nav=\write6
@@ -1352,10 +1403,10 @@ changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21793 strings out of 475567
- 428785 string characters out of 5777889
- 1946187 words of memory out of 5000000
- 43413 multiletter control sequences out of 15000+600000
+ 21845 strings out of 475567
+ 430303 string characters out of 5777889
+ 1945187 words of memory out of 5000000
+ 43453 multiletter control sequences out of 15000+600000
  569999 words of font info for 80 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  101i,15n,107p,425b,856s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1371,11 +1422,11 @@ type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2024basic/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024basic/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024basic/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on 8_algorithms_for_line_follower.pdf (46 pages, 45863127 bytes)
+Output written on 8_algorithms_for_line_follower.pdf (52 pages, 46008761 bytes)
 .
 PDF statistics:
- 1427 PDF objects out of 1440 (max. 8388607)
- 1235 compressed objects within 13 object streams
- 93 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1601 PDF objects out of 1728 (max. 8388607)
+ 1388 compressed objects within 14 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 269 words of extra memory for PDF output out of 10000 (max. 10000000)
 
