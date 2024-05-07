@@ -252,7 +252,7 @@
 \begin{frame}
   
   \frametitle{\bf making custom silicone tires}
-  \url{https://www.kaufland.sk/product/482387287/}
+  \url{https://www.mojefarby.sk/pour-art-silikon-na-vyrobu-formy-asf-20sh-1kg-2/}
 
   \centering{\includegraphics[scale=0.07]{../images/motors/tires_1.jpg}}
 
@@ -262,7 +262,7 @@
 \begin{frame}
   
   \frametitle{\bf making custom silicone tires}
-  \url{https://www.kaufland.sk/product/482387287/}
+  \url{https://www.mojefarby.sk/pour-art-silikon-na-vyrobu-formy-asf-20sh-1kg-2/}
 
   \centering{\includegraphics[scale=0.07]{../images/motors/tires_2.jpg}}
 
@@ -271,7 +271,7 @@
 \begin{frame}
   
   \frametitle{\bf making custom silicone tires}
-  \url{https://www.kaufland.sk/product/482387287/}
+  \url{https://www.mojefarby.sk/pour-art-silikon-na-vyrobu-formy-asf-20sh-1kg-2/}
 
   \centering{\includegraphics[scale=0.07]{../images/motors/tires_3.jpg}}
 
@@ -298,11 +298,51 @@
 \begin{frame}
 
   \frametitle{\bf line sensors}
-  TODO
+  
+  \begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.2]{../images/sensors/cny70.png}} \\
+      \centering{\includegraphics[scale=0.1]{../images/sensors/smd_led.png}} \\
+      \centering{\includegraphics[scale=0.2]{../images/sensors/apds_9950.png}} \\
+      \centering{\includegraphics[scale=0.2]{../images/sensors/line_sensor_pcb.png}}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item CNY70 - IR, huge, obsolete
+        \item smd phototransistor + white LED : 550nm can see colored line
+        \item RGB senzor, APDS9950 : can see full color information
+        \item linear or quadratic interpolation : never use only 8 values
+      \end{itemize}
+    \end{column}
+
+  \end{columns}
 
 \end{frame}
 
 
+\begin{frame}
+
+  \frametitle{\bf line sensors - geometry}
+  correct sensors placement : \\
+  \includegraphics[scale=0.6]{../images/sensors/sensor-ls_0.png}
+  \\
+  correct center sensors placement :  \\
+  \includegraphics[scale=0.6]{../images/sensors/sensor-ls_1.png}
+
+\end{frame}
+
+
+
+\begin{frame}
+
+  \frametitle{\bf line sensors - geometry}
+  too close sensors placement : \\
+  \includegraphics[scale=0.6]{../images/sensors/sensor-ls_2.png}
+  \\
+  \includegraphics[scale=0.4]{../images/sensors/led_radiating.png}
+\end{frame}
 
 \begin{frame}
 
@@ -330,7 +370,28 @@
 \begin{frame}
 
   \frametitle{\bf IR leds sensors}
-  TODO
+  
+  \begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.4]{../images/sensors/ir_led.png}}
+      \centering{\includegraphics[scale=0.04]{../images/sensors/ir_led_2.jpg}}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item turn off led
+        \item measure voltage
+        \item turn on led
+        \item measure voltage
+        \item substract
+        \item put result into polynom (2nd .. 3rd order) to convert into distance
+        \item put result into filter (low pass or Kalman)
+      \end{itemize}
+    \end{column}
+
+  \end{columns}
+
 
 \end{frame}
 
@@ -339,22 +400,27 @@
   
   \frametitle{\bf laser TOF}
 
-  {\color{red} \bf{ NEVER } buy cheep alternative}
+  \begin{columns}
 
-  \centering{\includegraphics[scale=0.08]{../images/sensors/tof_1.jpg}}
-  \centering{\includegraphics[scale=0.08]{../images/sensors/tof_2.jpg}}
-  
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.06]{../images/sensors/tof_1.jpg}}
+      \centering{\includegraphics[scale=0.06]{../images/sensors/tof_2.jpg}}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item  {\color{red} \bf{ NEVER } buy cheep alternative}
+        \item TOF : VL53L0X, VL53L1CX
+        \item TOF 8x8 : VL53L8CX
+        \item LIDAR on a chip, 54 x 42 : VL53L9CA
+      \end{itemize}
+    \end{column}
+
+  \end{columns}
 
 \end{frame}
 
 
-\begin{frame}
-  
-  \frametitle{\bf laser TOF - filter data}
-
-  \centering{\includegraphics[scale=0.4]{../images/sensors/vl_01.png}}
-
-\end{frame}
 
 
 \begin{frame}
@@ -369,7 +435,21 @@
 \begin{frame}
 
   \frametitle{\bf encoders}
-  TODO
+
+  \begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      relative quadrature encoder, \\ resolution 3.6deg \\
+      \centering{\includegraphics[scale=0.17]{../images/sensors/mag_encoder_0.png}}
+      \centering{\includegraphics[scale=0.17]{../images/sensors/mag_encoder_1.png}}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      absolute encoder, \\ resolution 0.087deg \\
+      \centering{\includegraphics[scale=0.17]{../images/sensors/mag_encoder_2.png}}
+    \end{column}
+
+  \end{columns}
 
 \end{frame}
 
@@ -396,6 +476,76 @@
   \end{itemize}
 
 \end{frame}
+
+
+
+
+
+\begin{frame}
+  \frametitle{\bf controller loops}
+
+  \centering{\includegraphics[scale=0.4]{../diagrams/robot_control/control-overview.png}}
+
+  \begin{itemize}
+    \item if we dont know system dynamics (only guessing) : 
+      \begin{itemize}
+        \item {\bf{if else}} controller
+        \item hand tunned {\bf{PID}} controller
+      \end{itemize}
+    \item from known dynamics :
+      \begin{itemize}
+        \item Kalman filter
+        \item LQR, LQG, H$\infty$
+        \item {\bf{MPC}}, neural network - planning
+      \end{itemize}
+  \end{itemize}
+
+\end{frame}
+
+
+
+\begin{frame}
+  
+  \frametitle{\bf robot controll - overview}
+
+  \centering{\includegraphics[scale=0.4]{../diagrams/robot_control/control-movement.png}}
+
+\end{frame}
+
+
+\begin{frame}
+  
+  \frametitle{\bf robot controll - translation}
+
+  \centering{\includegraphics[scale=0.4]{../diagrams/robot_control/control-translation.png}}
+
+\end{frame}
+
+\begin{frame}
+  
+  \frametitle{\bf robot controll - rotation}
+
+  \centering{\includegraphics[scale=0.4]{../diagrams/robot_control/control-rotation.png}}
+
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{\bf robot controll - overview}
+
+  \begin{itemize}
+    \item position control : distance $x$ and angle $\theta$
+    \item required values : $x_r$, $\theta_r$
+    \item observed values : $x$, $\theta$ 
+    \item forward  : $x_r(n) = x(n) + speed_{r}$
+    \item turning  : $\theta_r(n) = \theta(n) + angular\_vel_{r}$
+    \item full state vector : $(x, \theta, v, \omega)$
+    \item note 1, : vectors are matrices, with shape $N x 1$
+    \item note 2, : nice to have model of dynamics, \bf{planning}
+  \end{itemize}
+
+\end{frame}
+
 
 
 
@@ -478,6 +628,18 @@
 \end{frame}
 
 
+\begin{frame}
+  \frametitle{\bf MPC - model predictive control}
+
+  \begin{itemize}
+    \item not only regulating but full trajectory tracking
+    \item planning multiple steps into futur
+    \item x\textsubscript{r} is now full trajectory (e.g. 50 steps) of states
+  \end{itemize}
+
+  {\centering \includegraphics[scale=0.4]{../diagrams/controll/control-mpc_steps.png}}
+
+\end{frame}
 
 \begin{frame}
   \frametitle{\bf MPC - model predictive control}
@@ -494,73 +656,23 @@
 
 
 
-\begin{frame}
-  
-  \frametitle{\bf robot controll - overview}
-
-  \centering{\includegraphics[scale=0.4]{../diagrams/robot_control/control-movement.png}}
-
-\end{frame}
-
 
 \begin{frame}
-  
-  \frametitle{\bf robot controll - translation}
-
-  \centering{\includegraphics[scale=0.4]{../diagrams/robot_control/control-translation.png}}
-
-\end{frame}
-
-\begin{frame}
-  
-  \frametitle{\bf robot controll - rotation}
-
-  \centering{\includegraphics[scale=0.4]{../diagrams/robot_control/control-rotation.png}}
-
-\end{frame}
-
-
-\begin{frame}
-  \frametitle{\bf robot controll - overview}
+  \frametitle{\bf neural network high level control}
 
   \begin{itemize}
-    \item position control : distance $x$ and angle $\theta$
-    \item required values : $x_r$, $\theta_r$
-    \item observed values : $x$, $\theta$ 
-    \item forward  : $x_r(n) = x(n) + speed_{r}$
-    \item turning  : $\theta_r(n) = \theta(n) + angular\_vel_{r}$
-    \item full state vector : $(x, \theta, v, \omega)$
-    \item note 1, : vectors are matrices, with shape $N x 1$
-    \item note 2, : nice to have model of dynamics, \bf{planning}
+    \item recurrent neural network (GRU, LSTM) 
+    \item RNN estimates controller matrices
+    \item direct controll makes no sense
   \end{itemize}
+
+  {\centering \includegraphics[scale=0.6]{../diagrams/controll/control-neural_netwok.png}}
 
 \end{frame}
 
 
 
 
-
-
-\begin{frame}
-  \frametitle{\bf controller loops}
-
-  \centering{\includegraphics[scale=0.4]{../diagrams/robot_control/control-overview.png}}
-
-  \begin{itemize}
-    \item if we dont know system dynamics (only guessing) : 
-      \begin{itemize}
-        \item {\bf{if else}} controller
-        \item hand tunned {\bf{PID}} controller
-      \end{itemize}
-    \item from known dynamics :
-      \begin{itemize}
-        \item Kalman filter
-        \item LQR, LQG, H$\infty$
-        \item {\bf{MPC}} - planning
-      \end{itemize}
-  \end{itemize}
-
-\end{frame}
 
 
 
@@ -720,7 +832,30 @@
 
 
 \begin{frame}
-  \frametitle{\bf red pill section}
+  
+  \frametitle{Q\&A}
+
+  \begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.08]{../images/me.jpg}}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item \url{https://github.com/michalnand/}
+        \item \url{michal.nand@gmail.com}
+      \end{itemize}
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+
+
+\begin{frame}
+  \frametitle{\bf \color{red} red pill section}
 \end{frame}
 
 
@@ -990,26 +1125,5 @@
 \end{frame}
 
 
-\begin{frame}
-  
-  \frametitle{Q\&A}
-
-  \begin{columns}
-
-    \begin{column}{0.5\textwidth}
-      \centering{\includegraphics[scale=0.08]{../images/me.jpg}}
-    \end{column}
-
-    \begin{column}{0.5\textwidth}
-      \begin{itemize}
-        \item \url{https://github.com/michalnand/}
-        \item \url{michal.nand@gmail.com}
-      \end{itemize}
-    \end{column}
-
-  \end{columns}
-
-    
-\end{frame}
 
 \end{document}
