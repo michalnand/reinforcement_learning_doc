@@ -252,17 +252,17 @@
 \begin{frame}
   
   \frametitle{\bf making custom silicone tires}
-  \url{https://www.mojefarby.sk/pour-art-silikon-na-vyrobu-formy-asf-20sh-1kg-2/}
-
-  \centering{\includegraphics[scale=0.07]{../images/motors/tires_1.jpg}}
-
+  shore scale : SH20 .. SH40 \\
+  
+  \centering{\includegraphics[scale=0.2]{../images/motors/durometerchart.png}} \\
+  \centering{\includegraphics[scale=0.03]{../images/motors/tires_1.jpg}} \\
+  \url{https://www.mojefarby.sk/pour-art-silikon-na-vyrobu-formy-asf-20sh-1kg-2/} 
 \end{frame}
 
 
 \begin{frame}
   
   \frametitle{\bf making custom silicone tires}
-  \url{https://www.mojefarby.sk/pour-art-silikon-na-vyrobu-formy-asf-20sh-1kg-2/}
 
   \centering{\includegraphics[scale=0.07]{../images/motors/tires_2.jpg}}
 
@@ -271,7 +271,6 @@
 \begin{frame}
   
   \frametitle{\bf making custom silicone tires}
-  \url{https://www.mojefarby.sk/pour-art-silikon-na-vyrobu-formy-asf-20sh-1kg-2/}
 
   \centering{\includegraphics[scale=0.07]{../images/motors/tires_3.jpg}}
 
@@ -504,13 +503,6 @@
 
 
 
-\begin{frame}
-  
-  \frametitle{\bf robot controll - overview}
-
-  \centering{\includegraphics[scale=0.4]{../diagrams/robot_control/control-movement.png}}
-
-\end{frame}
 
 
 \begin{frame}
@@ -529,6 +521,34 @@
 
 \end{frame}
 
+
+
+\begin{frame}
+  
+  \frametitle{\bf robot controll - overview}
+
+  
+
+  \begin{columns}
+
+    \begin{column}{0.5\textwidth}
+      \centering{\includegraphics[scale=0.4]{../diagrams/controll/control-line_following.png}}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item line following is motion on circle
+        \item estimate line curvature radius Rc
+        \item estimate maximum velocity v
+        \item control movement on circle with radius Rc and velocity v
+        \item velocity is limited by motors saturation and centrifugal force
+      \end{itemize}
+    \end{column}
+
+  \end{columns}
+
+
+\end{frame}
 
 \begin{frame}
   \frametitle{\bf robot controll - overview}
@@ -827,6 +847,69 @@
 
 
 \end{frame}
+
+
+
+
+\begin{frame}
+  \frametitle{\bf recommended sources}
+
+  {\bf shops}
+  \begin{itemize}
+    \item motors, wheels : \url{www.pololu.com}, \url{www.jsumo.com}
+    \item PCB : \url{jlcpcb.com}
+    \item electronics : \url{www.mouser.com}
+  \end{itemize}
+
+\end{frame}
+
+
+\begin{frame}
+
+  \frametitle{\bf recommended sources}
+  Champion-level drone racing using deep reinforcement learning, \\
+  Elia Kaufmann1, Leonard Bauersfeld1, Antonio Loquercio1, Matthias Müller, Vladlen Koltun, Davide Scaramuzza \\
+  
+  \centering{\includegraphics[scale=0.3]{../papers_captions/drone_racing_0.png}}
+
+\end{frame}
+
+
+
+\begin{frame}
+
+  \frametitle{\bf recommended sources}
+  Champion-level drone racing using deep reinforcement learning, \\
+  Elia Kaufmann1, Leonard Bauersfeld1, Antonio Loquercio1, Matthias Müller, Vladlen Koltun, Davide Scaramuzza \\
+  
+  \centering{\includegraphics[scale=0.3]{../papers_captions/drone_racing_1.png}}
+
+\end{frame}
+
+
+
+
+\begin{frame}
+  \frametitle{\bf recommended sources}
+  {\bf books}
+  \begin{itemize}
+    \item The Matrix Cookbook, Kaare Brandt Petersen Michael Syskind Pedersen, \url{https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf}
+    \item Kalman Filter from the Ground up, Alex Becker, \url{www.kalmanfilter.net}
+  \end{itemize}
+  
+  {\bf groups}
+  \begin{itemize}
+    \item Model Predictive Control (MPC) Tutorial, \url{https://aleksandarhaber.com/model-predictive-control-mpc-tutorial-1-unconstrained-formulation-derivation-and-implementation-in-python-from-scratch/}
+    \item ETH Model predictive control group, ORCA project \\
+      \url {https://control.ee.ethz.ch/research/team-projects/autonomous-rc-car-racing/videos-related-to-the-orca-project.html} \\
+      \url{https://www.youtube.com/watch?v=mXaElWYQKC4}
+  \end{itemize}
+
+\end{frame}
+
+
+
+
 
 
 
